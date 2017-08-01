@@ -1,0 +1,49 @@
+.gg-loader {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.gg-loading-dots {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: 24px;
+  width: 125px;
+
+  margin: auto;
+  text-align: center;
+}
+
+.gg-loading-dot {
+  display: inline-block;
+  height: 100%;
+  width: 24px;
+
+  border-radius: 50%;
+  background-color: #cccccc;
+  box-shadow: 0 0 6px 0 #aaa;
+  animation: gg-bounce 1.4s infinite ease-in-out both;
+}
+
+.gg-loading-dot:first-of-type {
+  float: left;
+  animation-delay: -0.16s;
+}
+
+.gg-loading-dot:last-of-type {
+  float: right;
+  animation-delay: 0.16s;
+}
+
+@keyframes gg-bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1.0);
+  }
+}

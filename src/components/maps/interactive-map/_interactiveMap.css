@@ -1,0 +1,38 @@
+.gg-interactiveMap {
+  transition: box-shadow 500ms ease-in-out;
+}
+
+.gg-interactiveMap_success {
+  animation: gg-showSuccess ease-in 360ms;
+}
+
+.gg-interactiveMap_error {
+  animation: gg-showError ease-in 360ms;
+}
+
+.gg-markerIcon {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gg-markerIcon_red {
+  background-image: url('icons/marker-red.png');
+}
+
+@keyframes gg-showSuccess {
+  0%, 90% {
+    box-shadow: 0 0 3px 1px transparent;
+  }
+  30% {
+    box-shadow: 0 0 8px 4px rgba(92, 184, 92, .5);
+  }
+}
+
+@keyframes gg-showError {
+  0%, 90% {
+    box-shadow: 0 0 3px 1px transparent;
+  }
+  30% {
+    box-shadow: 0 0 8px 4px rgba(217, 83, 79, .5);
+  }
+}

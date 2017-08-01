@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+
+.gg-scroll {
+  overflow: auto;
+}
+
+.gg-text-no-overflow {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.gg-main-body {
+  height: calc(100% - 76px - 46px);
+}
