@@ -16,7 +16,7 @@ export const fetchData = (id) => {
     return Promise.reject('Invalid area id');
   }
 
-  return fetch(`/geo-json/${id}.json`)
+  return fetch(`geo-json/${id}.json`)
     .then(function (response) {
       return response.json();
     })
