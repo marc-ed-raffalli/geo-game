@@ -10,6 +10,7 @@ export default props => {
   }
   return (
     <img className={'gg-flag'}
+         alt="country flag"
          src={props.path}/>
   );
 };

@@ -26,10 +26,6 @@ export const fetchData = (id) => {
 };
 
 export const getMapConfigFromAreaId = id => {
-  if (!isAreaIdValid(id)) {
-    throw new Error('Invalid area id');
-  }
-
   const defaultMapZoom = {
     value: 3,
     min: 2,
@@ -73,5 +69,7 @@ export const getMapConfigFromAreaId = id => {
           ...defaultMapZoom
         }
       };
+    default:
+      throw new Error('Invalid area id');
   }
 };

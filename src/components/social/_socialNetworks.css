@@ -1,6 +1,5 @@
 .gg-socialNetworks {
   display: flex;
-  height: 30px;
   width: 100%;
   flex-direction: row;
   justify-content: center;
