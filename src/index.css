@@ -16,5 +16,6 @@ body {
 }
 
 .gg-main-body {
-  height: calc(100% - 76px - 46px);
+  height: calc(100% - 60px - 30px);
+  box-sizing: border-box;
 }

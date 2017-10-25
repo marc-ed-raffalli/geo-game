@@ -10,7 +10,7 @@ import Loader from '../components/common/Loader';
 import GameMap from './GameMap';
 import SocialNetworks from '../components/social/SocialNetworks';
 
-import {gameConfig, gameModes, locale} from '../constants';
+import {colors, gameConfig, gameModes, locale} from '../constants';
 
 
 class GameScreen extends Component {
@@ -28,7 +28,8 @@ class GameScreen extends Component {
     const {
         status, questions, answers, mode,
         countriesData, loading,
-        restartGame
+        restartGame,
+        duration, timeout
       } = this.props,
       redirectToHomeScreen = () => {
         this.props.stopGame();
@@ -52,10 +53,12 @@ class GameScreen extends Component {
                           isImg={mode === gameModes.flag}/>
           </div>
 
-          <div className="col-md-10 h-100">
-            <header className="gg-main-header pb-2 pt-3">
+          <div className="col-md-10 h-100 pt-3 pb-2">
+            <header className="gg-main-header pb-2">
               <GameHeader status={status}
                           question={question.display}
+                          timerColor={timeout < duration * 0.25 ? colors.redError : colors.greenOk}
+                          animateTimer={timeout <= 3 || timeout === duration}
                           flagMode={mode === gameModes.flag}
                           restartGame={restartGame}
                           returnHomeScreen={redirectToHomeScreen}/>
@@ -73,11 +76,13 @@ class GameScreen extends Component {
 const mapStateToProps = state => {
   const
     {status, questions, answers, mode} = state.game,
-    {countriesData, loading, error} = state.map;
+    {countriesData, loading, error} = state.map,
+    {duration, timeout} = state.timer;
 
   return {
     status, questions, answers, mode,
-    countriesData, loading, error
+    countriesData, loading, error,
+    duration, timeout
   };
 };
 

@@ -15,19 +15,71 @@ import './_gameHeader.css';
 
 export default class GameHeader extends Component {
 
-  render() {
-    const props = this.props,
-      status = props.status;
+  constructor(props) {
+    super(props);
 
-    if (status !== gameStatus.started) {
+    this.state = {
+      timerAnimation: 'none'
+    };
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.animateTimer) {
+      this.setTimerAnimation();
+    }
+  }
+
+  render() {
+    if (this.props.status !== gameStatus.started) {
       return this.renderBottom();
     }
 
+    let timerStyles = {
+      opacity: 1,
+      fontSize: '12.5rem',
+      color: this.props.timerColor
+    };
+
+    switch (this.state.timerAnimation) {
+      case 'evaluate':
+        timerStyles = {
+          ...timerStyles,
+          opacity: 0
+        };
+        break;
+      case 'forward':
+        const labelRect = this.timerElt.getBoundingClientRect();
+        timerStyles = {
+          ...timerStyles,
+          top: `${(window.innerHeight - labelRect.height) / 2 - labelRect.top}px`,
+          left: `${(this.headerElt.offsetWidth - labelRect.width) / 2}px`,
+          opacity: 0.7
+        };
+        break;
+      default:
+        timerStyles = {
+          ...timerStyles,
+          fontSize: undefined,
+          top: 0,
+          left: 0
+        };
+    }
+
     return (
-      <div className="d-flex pb-1 no-gutters">
+      <div className="d-flex pb-1 no-gutters"
+           ref={elt => {
+             this.headerElt = elt;
+           }}>
         <div className="col-2 col-sm-1">
-          <div><Timer/></div>
           <div className="text-nowrap"><Rounds/></div>
+          <div className="gg-gameHeader-timer">
+            <div className="gg-gameHeader-timerLabel"
+                 data-animate={this.state.timerAnimation === 'back'}
+                 ref={elt => {
+                   this.timerElt = elt;
+                 }}
+                 style={timerStyles}><Timer/></div>
+          </div>
         </div>
         <div className="col-8 col-sm-10">
           {this.renderQuestion()}
@@ -89,6 +141,18 @@ export default class GameHeader extends Component {
 
   renderCloseLink() {
     return <span className="pl-2 align-middle gg-gameHeader-menu" onClick={this.props.returnHomeScreen}>Close</span>;
+  }
+
+  setTimerAnimation() {
+    this.setState({timerAnimation: 'evaluate'});
+
+    requestAnimationFrame(() => {
+      this.setState({timerAnimation: 'forward'});
+
+      setTimeout(function () {
+        this.setState({timerAnimation: 'back'});
+      }.bind(this), 500);
+    });
   }
 
 };

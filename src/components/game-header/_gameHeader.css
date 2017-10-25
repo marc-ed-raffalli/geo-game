@@ -6,3 +6,18 @@
   width: 50px;
   margin: 0 auto;
 }
+
+.gg-gameHeader-timer {
+  position: relative;
+}
+
+.gg-gameHeader-timerLabel {
+  position: absolute;
+  z-index: 500; /* leaflet map tiles set at 400 */
+
+  pointer-events: none;
+}
+
+.gg-gameHeader-timerLabel[data-animate="true"] {
+  transition: all 250ms ease-out;
+}

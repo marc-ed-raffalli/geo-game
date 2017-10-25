@@ -1,6 +1,6 @@
 # Geo Game
 
-## References
+## References / Credits
 
 - https://reacttraining.com/react-router/web/guides/philosophy
 - https://v4-alpha.getbootstrap.com/
