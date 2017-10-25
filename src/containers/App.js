@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Redirect, Route} from 'react-router-dom';
+import {HashRouter as Router, Redirect, Route} from 'react-router-dom';
 
 import StartScreen from './StartScreen';
 import GameScreen from './GameScreen';

@@ -2,6 +2,7 @@
   "name": "geo-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marc-ed-raffalli.github.io/geo-game/",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "leaflet": "^1.1.0",
@@ -19,10 +20,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^1.0.0"
   }
 }
