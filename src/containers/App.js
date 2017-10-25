@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {HashRouter as Router, Redirect, Route} from 'react-router-dom';
 
+import GoogleAnalytics from './GoogleAnalytics';
 import StartScreen from './StartScreen';
 import GameScreen from './GameScreen';
 
@@ -13,6 +14,7 @@ export default class App extends Component {
     return (
       <Router>
         <div className="App h-100">
+          <GoogleAnalytics/>
           <Route exact path="/" component={StartScreen}/>
           <Route path="/:area/:mode" render={({match, ...args}) => {
             const areaId = match.params.area,

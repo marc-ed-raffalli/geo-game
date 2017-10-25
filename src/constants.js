@@ -1,9 +1,12 @@
+export const NODE_ENV_PRODUCTION = process.env.NODE_ENV === 'production';
+export const gaTrackingId = 'UA-97591265-1';
+
+export const locale = 'en-US';
+
 export const gameConfig = {
   timeout: 15,
   rounds: 20
 };
-
-export const locale = 'en-US';
 
 export const gameStatus = {
   started: 'started',
