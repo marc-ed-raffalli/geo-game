@@ -23,7 +23,7 @@ export const gameModes = {
 
 export const mapConfig = {
   attributions: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
-  serviceUrl: 'http://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png'
+  serviceUrl: 'https://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png'
 };
 
 export const colors = {
