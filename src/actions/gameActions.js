@@ -23,7 +23,9 @@ const buildQuestionList = (countries, mode, count) => {
         {id, name, capital, flag} = country,
         display = getValueByGameMode(country, mode);
 
-      if (questionByFeatureId[id] !== undefined) {
+      // prevent duplicates and empty values
+      // some capitals may not be defined on the data set
+      if (!display || questionByFeatureId[id] !== undefined) {
         continue;
       }
 
@@ -34,7 +36,7 @@ const buildQuestionList = (countries, mode, count) => {
     return Object.keys(questionByFeatureId)
       .map(id => questionByFeatureId[id]);
   },
-  getValueByGameMode = (value, mode) => value ? value[gameModes[mode]] : undefined
+  getValueByGameMode = (value, mode) => value && value[gameModes[mode]] ? value[gameModes[mode]] : undefined
 ;
 
 

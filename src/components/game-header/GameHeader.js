@@ -107,7 +107,7 @@ export default class GameHeader extends Component {
     return props.flagMode
       ? (<div className="gg-gameHeader-flag"><Flag path={props.question}/></div>)
       : (
-        <div className="h2 m-0 text-center gg-text-no-overflow">
+        <div className="gg-gameHeader-question h2 m-0 text-center gg-text-no-overflow">
           <SimpleText text={props.question}/>
         </div>
       );

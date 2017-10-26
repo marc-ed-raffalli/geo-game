@@ -21,3 +21,13 @@
 .gg-gameHeader-timerLabel[data-animate="true"] {
   transition: all 250ms ease-out;
 }
+
+.gg-gameHeader-question {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .gg-gameHeader-question {
+    font-size: 2rem;
+  }
+}
