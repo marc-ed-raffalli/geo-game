@@ -1,0 +1,29 @@
+.gg-area {
+  position: relative;
+}
+
+.gg-area-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  max-width: 100%;
+  z-index: 0;
+  opacity: .4;
+  text-align: right;
+}
+
+.gg-area-icon svg {
+  height: 100%;
+}
+
+@media (min-width: 540px) {
+  .gg-area-icon {
+    position: relative;
+    opacity: 1;
+  }
+
+  .gg-area-icon svg {
+    height: auto;
+  }
+}

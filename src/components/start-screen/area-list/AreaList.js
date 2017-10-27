@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Continents from '../../maps/continents/Continents';
+import './_areaList.css';
 
 export default (props) => (
   <div
@@ -15,7 +16,7 @@ export default (props) => (
           p-3 p-sm-4
           mb-2 mb-sm-3 m-lg-3">
           <h3 className="mb-4">{i}</h3>
-          <div className="d-flex no-gutters">
+          <div className="d-flex no-gutters gg-area">
             <div className="col-6 col-sm-4">
               <div className="mt-1 mb-2">
                 <Link className="btn btn-outline-primary" to={{pathname: i + '/countryName'}}>Country name</Link>
@@ -27,7 +28,7 @@ export default (props) => (
                 <Link className="btn btn-outline-primary" to={{pathname: i + '/flag'}}>Flag</Link>
               </div>
             </div>
-            <div className="col-6 col-sm-8">
+            <div className="col-sm-8 gg-area-icon">
               <Continents active={i}/>
             </div>
           </div>
