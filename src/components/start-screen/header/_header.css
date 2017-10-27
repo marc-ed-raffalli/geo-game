@@ -1,0 +1,10 @@
+.gg-header-title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .gg-header-title {
+    font-size: 3.2rem;
+  }
+}
