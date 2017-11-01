@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Ionicon from 'react-ionicons';
 
 import Timer from '../../containers/Timer';
 import Rounds from '../../containers/Rounds';
@@ -61,7 +62,7 @@ export default class GameHeader extends Component {
           ...timerStyles,
           fontSize: undefined,
           top: 0,
-          left: 0
+          left: 24 + 'px'
         };
     }
 
@@ -73,12 +74,14 @@ export default class GameHeader extends Component {
         <div className="col-2 col-sm-1">
           <div className="text-nowrap"><Rounds/></div>
           <div className="gg-gameHeader-timer">
+            <Ionicon color={timerStyles.color} icon="ion-android-stopwatch"/>
             <div className="gg-gameHeader-timerLabel"
                  data-animate={this.state.timerAnimation === 'back'}
                  ref={elt => {
                    this.timerElt = elt;
                  }}
-                 style={timerStyles}><Timer/></div>
+                 style={timerStyles}>
+              <Timer/></div>
           </div>
         </div>
         <div className="col-8 col-sm-10">
