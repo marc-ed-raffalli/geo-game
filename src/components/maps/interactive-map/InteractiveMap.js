@@ -68,6 +68,7 @@ export default class InteractiveMap extends Component {
       <Map style={mapStyle}
            center={props.center}
            scrollWheelZoom={props.scrollWheelZoom}
+           maxBounds={props.maxBounds}
            zoom={props.zoom}>
 
         <TileLayer url={props.mapServiceUrl}

@@ -53,7 +53,11 @@ class GameMap extends Component {
 
   render() {
     const state = this.state,
-      props = this.props;
+      props = this.props,
+      maxBounds = [
+        [90, -180],
+        [-90, 180]
+      ];
 
     const config = getMapConfigFromAreaId(props.areaId);
     return (
@@ -64,6 +68,7 @@ class GameMap extends Component {
         zoom={config.zoom.value}
         minZoom={config.zoom.min}
         maxZoom={config.zoom.max}
+        maxBounds={maxBounds}
         scrollWheelZoom={state.scrollWheelZoom}
         attributions={mapConfig.attributions}
         geoJson={props.displayedData}
