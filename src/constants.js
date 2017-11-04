@@ -26,6 +26,13 @@ export const mapConfig = {
   serviceUrl: 'https://{s}.tiles.mapbox.com/v3/raffalli.i3ip4bic/{z}/{x}/{y}.png'
 };
 
+export const footerItems = [
+  {text: '© 2017 - Marc Ed. Raffalli'},
+  {text: 'Credits', url: 'https://marc-ed-raffalli.github.io/en/projects/geo-game#credits'},
+  {text: 'Info', url: 'https://marc-ed-raffalli.github.io/en/projects/geo-game'},
+  {text: 'Report an issue', url: 'https://github.com/marc-ed-raffalli/geo-game/issues'},
+];
+
 export const colors = {
   'default': 'transparent',
   active: '#0275d8',

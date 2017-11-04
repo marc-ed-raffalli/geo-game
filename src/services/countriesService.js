@@ -28,8 +28,8 @@ export const fetchData = (id) => {
 export const getMapConfigFromAreaId = id => {
   const defaultMapZoom = {
     value: 3,
-    min: 2,
-    max: 8
+    min: 3,
+    max: 14
   };
 
   switch (id) {
@@ -51,10 +51,7 @@ export const getMapConfigFromAreaId = id => {
     case areas[3]:
       return {
         center: [40, -100],
-        zoom: {
-          value: 2,
-          ...defaultMapZoom
-        }
+        zoom: defaultMapZoom
       };
     case areas[4]:
       return {

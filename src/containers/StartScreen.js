@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {locale} from '../constants';
+import {locale, footerItems} from '../constants';
 import {areas} from '../services/countriesService';
 
 import Header from '../components/start-screen/header/Header';
@@ -11,6 +11,6 @@ export default () => (
   <div className="container">
     <Header/>
     <AreaList items={areas}/>
-    <PageFooter locale={locale}/>
+    <PageFooter locale={locale} items={footerItems}/>
   </div>
 );

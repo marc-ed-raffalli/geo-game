@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.gg-area-buttons {
+  z-index: 1;
+}
+
 .gg-area-icon {
   position: absolute;
   right: 0;

@@ -17,7 +17,7 @@ export default (props) => (
           mb-2 mb-sm-3 m-lg-3">
           <h3 className="mb-4">{i}</h3>
           <div className="d-flex no-gutters gg-area">
-            <div className="col-6 col-sm-4">
+            <div className="col-6 col-sm-4 gg-area-buttons">
               <div className="mt-1 mb-2">
                 <Link className="btn btn-outline-primary" to={{pathname: i + '/countryName'}}>Country name</Link>
               </div>

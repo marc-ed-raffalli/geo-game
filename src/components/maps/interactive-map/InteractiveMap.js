@@ -71,6 +71,9 @@ export default class InteractiveMap extends Component {
            zoom={props.zoom}>
 
         <TileLayer url={props.mapServiceUrl}
+                   noWrap={true}
+                   minZoom={props.minZoom}
+                   maxZoom={props.maxZoom}
                    attribution={props.attributions}/>
 
         {this.buildGeoJsonLayer()}
