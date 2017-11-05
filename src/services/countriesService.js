@@ -1,15 +1,15 @@
 /* globals fetch */
 
 export const areas = [
-  'africa',
-  'asia',
-  'europe',
-  'north-america',
-  'oceania',
-  'south-america',
+  { id: 'africa', label: 'Africa' },
+  { id: 'asia', label: 'Asia' },
+  { id: 'europe', label: 'Europe' },
+  { id: 'north-america', label: 'North America' },
+  { id: 'oceania', label: 'Oceania' },
+  { id: 'south-america', label: 'South America' },
 ];
 
-export const isAreaIdValid = (id) => areas.indexOf(id) !== -1;
+export const isAreaIdValid = (id) => areas.some(i => i.id === id);
 
 export const fetchData = (id) => {
   if (!isAreaIdValid(id)) {
@@ -33,32 +33,32 @@ export const getMapConfigFromAreaId = id => {
   };
 
   switch (id) {
-    case areas[0]:
+    case areas[0].id:
       return {
         center: [0, 20],
         zoom: defaultMapZoom
       };
-    case areas[1]:
+    case areas[1].id:
       return {
         center: [25, 90],
         zoom: defaultMapZoom
       };
-    case areas[2]:
+    case areas[2].id:
       return {
         center: [50, 0],
         zoom: defaultMapZoom
       };
-    case areas[3]:
+    case areas[3].id:
       return {
         center: [40, -100],
         zoom: defaultMapZoom
       };
-    case areas[4]:
+    case areas[4].id:
       return {
         center: [-25, 150],
         zoom: defaultMapZoom
       };
-    case areas[5]:
+    case areas[5].id:
       return {
         center: [-30, -60],
         zoom: {
