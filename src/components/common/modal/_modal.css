@@ -1,0 +1,14 @@
+.modal {
+  display: block;
+  max-height: 100%;
+}
+
+.modal-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.modal-dialog {
+  max-height: calc(100% - 20px);
+  overflow-y: auto;
+}

@@ -1,12 +1,12 @@
 /* globals fetch */
 
 export const areas = [
-  { id: 'africa', label: 'Africa' },
-  { id: 'asia', label: 'Asia' },
-  { id: 'europe', label: 'Europe' },
-  { id: 'north-america', label: 'North America' },
-  { id: 'oceania', label: 'Oceania' },
-  { id: 'south-america', label: 'South America' },
+  {id: 'africa', label: 'Africa'},
+  {id: 'asia', label: 'Asia'},
+  {id: 'europe', label: 'Europe'},
+  {id: 'north-america', label: 'North America'},
+  {id: 'oceania', label: 'Oceania'},
+  {id: 'south-america', label: 'South America'},
 ];
 
 export const isAreaIdValid = (id) => areas.some(i => i.id === id);

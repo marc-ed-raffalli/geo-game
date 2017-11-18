@@ -10,11 +10,13 @@ const defaultGameState = {
     error: undefined
   },
 
+  //<editor-fold desc="Fetch">
   fetch = (state, action) => ({
     ...state,
     areaId: action.payload,
+    countriesData: undefined,
     loading: true,
-    countriesData: undefined
+    error: undefined
   }),
   fetchFulfilled = (state, action) => ({
     ...state,
@@ -31,11 +33,13 @@ const defaultGameState = {
     loading: false,
     error: action.payload
   }),
+  //</editor-fold>
+
   showMarkers = (state, action) => ({
     ...state,
     markers: action.payload.map(id => state.dataById[id])
   }),
-  reset = (state, action) => ({
+  reset = state => ({
     ...state,
     markers: undefined,
     displayedData: state.countriesData,
@@ -45,7 +49,7 @@ const defaultGameState = {
     ...state,
     popup: state.dataById[action.payload]
   }),
-  hidePopup = (state, action) => ({
+  hidePopup = state => ({
     ...state,
     popup: undefined
   }),

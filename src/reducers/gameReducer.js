@@ -10,15 +10,22 @@ const defaultGameState = {
     answers: [],
     correct: 0
   },
-  start = (state, action) => ({
+  set = (state, action) => ({
     ...state,
-    status: gameStatus.started,
     mode: action.payload.mode,
     questions: action.payload.questions,
     answers: [],
     correct: 0
   }),
-  stop = (state, action) => ({
+  start = state => ({
+    ...state,
+    status: gameStatus.started
+  }),
+  showResults = state => ({
+    ...state,
+    status: gameStatus.results
+  }),
+  stop = state => ({
     ...state,
     status: gameStatus.stopped
   }),
@@ -44,6 +51,8 @@ const defaultGameState = {
 
 export default mapActionToReducer({
   [Game.START]: start,
+  [Game.RESULTS]: showResults,
   [Game.STOP]: stop,
+  [Game.SET]: set,
   [Game.ANSWER_CURRENT_QUESTION]: answerQuestion,
-}, defaultGameState)
+}, defaultGameState);

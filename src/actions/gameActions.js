@@ -39,20 +39,24 @@ const buildQuestionList = (countries, mode, count) => {
   getValueByGameMode = (value, mode) => value && value[gameModes[mode]] ? value[gameModes[mode]] : undefined
 ;
 
-
-export const loadGame = (areaId, mode, questionCount, timeout) => dispatch => {
-  // IMPR better way?
+export const loadGame = (areaId, mode, questionCount) => dispatch => {
   dispatch(mapActions.load(areaId))
-    .then(countries => dispatch(startGame(countries, mode, questionCount, timeout)));
+    .then(countries => dispatch(setGame(countries, mode, questionCount)));
 };
 
-export const startGame = (data, mode, questionCount, timeout) => dispatch => {
+export const setGame = (data, mode, questionCount) => dispatch => {
   dispatch({
-    type: Game.START,
+    type: Game.SET,
     payload: {
       questions: buildQuestionList(data, mode, questionCount),
       mode: mode
     }
+  });
+};
+
+export const startGame = timeout => dispatch => {
+  dispatch({
+    type: Game.START
   });
 
   dispatch(timerActions.start(timeout, () => answerCurrentQuestion(undefined)));
@@ -60,7 +64,8 @@ export const startGame = (data, mode, questionCount, timeout) => dispatch => {
 
 export const restartGame = () => (dispatch, getState) => {
   const {map, game, timer} = getState();
-  dispatch(startGame(map.countriesData, game.mode, game.questions.length, timer.duration));
+  dispatch(setGame(map.countriesData, game.mode, game.questions.length));
+  dispatch(startGame(timer.duration));
   dispatch(mapActions.reset());
 };
 
@@ -80,7 +85,8 @@ export const showResults = () => (dispatch, getState) => {
       return res;
     }, {});
 
-  dispatch(stopGame());
+  dispatch({type: Game.RESULTS});
+  dispatch(timerActions.stop());
   dispatch(mapActions.highlightFeatures(colorsByName));
 
   if (gameState.correct === gameState.questions.length) {

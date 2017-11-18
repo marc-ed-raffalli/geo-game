@@ -2,42 +2,49 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import * as gameActions from '../actions/gameActions';
+import {hideHelp, showHelp} from '../actions/profileActions';
 
 import GameHeader from '../components/game-header/GameHeader';
 import QuestionList from '../components/question-list/QuestionList';
 import Loader from '../components/common/Loader';
-
+import GettingStartedModal from '../components/getting-started-dialog/GettingStartedModal';
 import GameMap from './GameMap';
 import SocialNetworks from '../components/social/SocialNetworks';
 
-import {colors, gameConfig, gameModes, locale} from '../constants';
-
+import {colors, gameConfig, gameModes, gameStatus, locale} from '../constants';
 
 class GameScreen extends Component {
 
   componentDidMount() {
     const {area, gameMode, loadGame} = this.props;
-    loadGame(area, gameMode, gameConfig.rounds, gameConfig.timeout);
+    loadGame(area, gameMode, gameConfig.rounds);
   }
 
   componentWillUnmount() {
-    this.props.stopGame();
+    this.stopGame();
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.status === gameStatus.stopped && !this.props.profile.showHelp && this.isGameReady()) {
+      // start the game automatically if the user deactivated the help dialog
+      this.props.startGame();
+    }
   }
 
   render() {
     const {
         status, questions, answers, mode,
-        countriesData, loading,
+        profile,
         restartGame,
         duration, timeout
       } = this.props,
       redirectToHomeScreen = () => {
-        this.props.stopGame();
+        this.stopGame();
         this.props.history.push('/');
       };
 
     // TODO add error handling
-    if (loading || !countriesData) {
+    if (!this.isGameReady()) {
       return <Loader/>;
     }
 
@@ -45,6 +52,8 @@ class GameScreen extends Component {
 
     return (
       <div className="container-fluid h-100">
+        <GettingStartedModal show={profile.showHelp} onPlayClick={this.onPlayClick.bind(this)}/>
+
         <div className="row h-100 no-gutters">
 
           <div className="col-md-2 h-100 pt-3 pb-3 pr-3 hidden-sm-down">
@@ -71,6 +80,24 @@ class GameScreen extends Component {
       </div>
     );
   }
+
+  isGameReady() {
+    const props = this.props;
+    return !props.mapLoading && !props.profile.loading && props.countriesData !== undefined;
+  }
+
+  stopGame() {
+    this.props.stopGame();
+
+    if (this.props.profile.persisted.config.showHelpOnGameStart) {
+      this.props.showHelp();
+    }
+  }
+
+  onPlayClick(showHelpOnGameStart) {
+    this.props.hideHelp(showHelpOnGameStart);
+    this.props.startGame();
+  }
 }
 
 const mapStateToProps = state => {
@@ -81,20 +108,29 @@ const mapStateToProps = state => {
 
   return {
     status, questions, answers, mode,
-    countriesData, loading, error,
+    countriesData, mapLoading: loading, error,
     duration, timeout
   };
 };
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   loadGame: (areaId, gameMode, questionCount, timeout) => {
     dispatch(gameActions.loadGame(areaId, gameMode, questionCount, timeout));
+  },
+  startGame: () => {
+    dispatch(gameActions.startGame(gameConfig.timeout));
   },
   restartGame: () => {
     dispatch(gameActions.restartGame());
   },
   stopGame: () => {
     dispatch(gameActions.stopGame());
+  },
+  showHelp: () => {
+    dispatch(showHelp());
+  },
+  hideHelp: showHelpOnGameStart => {
+    dispatch(hideHelp(showHelpOnGameStart));
   }
 });
 

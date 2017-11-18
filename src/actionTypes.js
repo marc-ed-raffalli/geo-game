@@ -1,5 +1,6 @@
 export const Game = {
   START: 'game:start',
+  SET: 'game:set',
   STOP: 'game:stop',
   RESTART: 'game:restart',
 
@@ -7,10 +8,15 @@ export const Game = {
   RESULTS: 'game:results'
 };
 
-export const CountryQna = {
-  SELECT_AREA: 'country-qna:select-area',
-  SET_QUESTION_LIST: 'country-qna:set-question-list',
-  ANSWER_CURRENT_QUESTION: 'country-qna:answer-current-question'
+export const Profile = {
+  FETCH_DATA: 'profile:fetch-data',
+  FETCH_DATA_FULFILLED: 'profile:fetch-data_fulfilled',
+  FETCH_DATA_REJECTED: 'profile:fetch-data_rejected',
+  SAVE_DATA: 'profile:save-data',
+  SAVE_DATA_FULFILLED: 'profile:save-data_fulfilled',
+  SAVE_DATA_REJECTED: 'profile:save-data_rejected',
+  SHOW_HELP: 'profile:help_show',
+  HIDE_HELP: 'profile:help_hide'
 };
 
 export const Timer = {

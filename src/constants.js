@@ -4,7 +4,7 @@ export const gaTrackingId = 'UA-97591265-1';
 export const locale = 'en-US';
 
 export const gameConfig = {
-  timeout: 15,
+  timeout: 30,
   rounds: 20
 };
 
