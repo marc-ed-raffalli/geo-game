@@ -85,9 +85,9 @@ export const showResults = () => (dispatch, getState) => {
       return res;
     }, {});
 
-  dispatch({type: Game.RESULTS});
   dispatch(timerActions.stop());
   dispatch(mapActions.highlightFeatures(colorsByName));
+  dispatch({type: Game.RESULTS});
 
   if (gameState.correct === gameState.questions.length) {
     return;
