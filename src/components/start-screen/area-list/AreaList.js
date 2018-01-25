@@ -12,7 +12,7 @@ export default (props) => (
         pt-md-2 pb-md-2 align-content-md-start">
     {props.items.map(i => (
       <div className="col-12 col-lg-6" key={i.id}>
-        <div className="bg-faded
+        <div className="bg-light
           p-3 p-sm-4
           mb-2 mb-sm-3 m-lg-3">
           <h3 className="mb-4">{i.label}</h3>
