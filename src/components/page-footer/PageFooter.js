@@ -9,7 +9,7 @@ export default props => (
       {
         props.items.map(i => (i.url
           ? <a key={i.text} className="d-inline-block mx-2 text-nowrap" href={i.url}>{i.text}</a>
-          : <span key={i.text} className="d-inline-block mx-2 text-nowrap">© 2017 - Marc Ed. Raffalli</span>))
+          : <span key={i.text} className="d-inline-block mx-2 text-nowrap">{i.text}</span>))
       }
     </div>
   </footer>
