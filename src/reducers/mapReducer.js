@@ -2,6 +2,7 @@ import {mapActionToReducer} from './_utils';
 import {Map} from '../actionTypes';
 
 const defaultGameState = {
+    locale: undefined,
     areaId: undefined,
     countriesData: undefined,
     displayedData: undefined,
@@ -13,7 +14,7 @@ const defaultGameState = {
   //<editor-fold desc="Fetch">
   fetch = (state, action) => ({
     ...state,
-    areaId: action.payload,
+    areaId: action.payload.id,
     countriesData: undefined,
     loading: true,
     error: undefined
@@ -77,4 +78,4 @@ export default mapActionToReducer({
   [Map.HIDE_POPUP]: hidePopup,
   [Map.HIGHLIGHT_FEATURES]: highlightFeatures,
   [Map.RESET]: reset
-}, defaultGameState)
+}, defaultGameState);

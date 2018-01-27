@@ -9,7 +9,7 @@ import './_countryInfoPopup.css';
 
 export default (props) => (
   <Popup position={props.properties.latlng} key={props.properties.name} onClose={props.onClose}>
-    <div>
+    <div className="gg-countryInfoPopup">
       <div className="font-weight-bold lead pb-1">{props.properties.name}</div>
       <div className="pb-1">{props.properties.capital}</div>
       <div className="pb-1 gg-countryInfoPopup-flag">

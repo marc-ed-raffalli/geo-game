@@ -39,8 +39,8 @@ const buildQuestionList = (countries, mode, count) => {
   getValueByGameMode = (value, mode) => value && value[gameModes[mode]] ? value[gameModes[mode]] : undefined
 ;
 
-export const loadGame = (areaId, mode, questionCount) => dispatch => {
-  dispatch(mapActions.load(areaId))
+export const loadGame = (locale, areaId, mode, questionCount) => dispatch => {
+  dispatch(mapActions.load(locale, areaId))
     .then(countries => dispatch(setGame(countries, mode, questionCount)));
 };
 

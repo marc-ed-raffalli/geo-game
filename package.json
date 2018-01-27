@@ -11,6 +11,7 @@
     "react-ga": "^2.4.1",
     "react-ionicons": "^1.5.9",
     "react-leaflet": "^1.8.0",
+    "react-localize-redux": "^2.14.1",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.10",

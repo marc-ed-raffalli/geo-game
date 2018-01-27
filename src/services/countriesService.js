@@ -1,24 +1,77 @@
 /* globals fetch */
 
+import {fetchData as fetchLocalizedData} from './localizationService';
+
 export const areas = [
-  {id: 'africa', label: 'Africa'},
-  {id: 'asia', label: 'Asia'},
-  {id: 'europe', label: 'Europe'},
-  {id: 'north-america', label: 'North America'},
-  {id: 'oceania', label: 'Oceania'},
-  {id: 'south-america', label: 'South America'},
+  'africa',
+  'asia',
+  'europe',
+  'north-america',
+  'oceania',
+  'south-america'
 ];
 
-export const isAreaIdValid = (id) => areas.some(i => i.id === id);
+const defaultMapZoom = {
+    value: 3,
+    min: 3,
+    max: 14
+  },
+  mapConfigByAreaId = {
+    africa: {
+      center: [0, 20],
+      zoom: defaultMapZoom
+    },
+    asia: {
+      center: [25, 90],
+      zoom: defaultMapZoom
+    },
+    europe: {
+      center: [50, 0],
+      zoom: defaultMapZoom
+    },
+    'north-america': {
+      center: [40, -100],
+      zoom: defaultMapZoom
+    },
+    oceania: {
+      center: [-25, 150],
+      zoom: defaultMapZoom
+    },
+    'south-america': {
+      center: [-30, -60],
+      zoom: {
+        value: 4,
+        ...defaultMapZoom
+      }
+    },
+  };
 
-export const fetchData = (id) => {
+export const isAreaIdValid = id => areas.indexOf(id) !== -1;
+
+export const fetchData = (locale, id) => {
   if (!isAreaIdValid(id)) {
     return Promise.reject('Invalid area id');
   }
 
-  return fetch(`geo-json/${id}.json`)
-    .then(function (response) {
-      return response.json();
+  return Promise.all([
+    fetch(`geo-json/${id}.json`).then(r => r.json()),
+    fetchLocalizedData(locale, id)
+  ])
+    .then(response => {
+      const geoJson = response[0],
+        localizedData = response[1];
+
+      return {
+        ...geoJson,
+        features: geoJson.features.map(f => ({
+          ...f,
+          properties: {
+            ...f.properties,
+            ...localizedData[f.properties.iso_a2],
+            id: f.properties.iso_a2
+          }
+        }))
+      };
     })
     .catch(function (ex) {
       console.error('parsing failed', ex);
@@ -26,47 +79,9 @@ export const fetchData = (id) => {
 };
 
 export const getMapConfigFromAreaId = id => {
-  const defaultMapZoom = {
-    value: 3,
-    min: 3,
-    max: 14
-  };
-
-  switch (id) {
-    case areas[0].id:
-      return {
-        center: [0, 20],
-        zoom: defaultMapZoom
-      };
-    case areas[1].id:
-      return {
-        center: [25, 90],
-        zoom: defaultMapZoom
-      };
-    case areas[2].id:
-      return {
-        center: [50, 0],
-        zoom: defaultMapZoom
-      };
-    case areas[3].id:
-      return {
-        center: [40, -100],
-        zoom: defaultMapZoom
-      };
-    case areas[4].id:
-      return {
-        center: [-25, 150],
-        zoom: defaultMapZoom
-      };
-    case areas[5].id:
-      return {
-        center: [-30, -60],
-        zoom: {
-          value: 4,
-          ...defaultMapZoom
-        }
-      };
-    default:
-      throw new Error('Invalid area id');
+  if (!mapConfigByAreaId[id]) {
+    throw new Error('Invalid area id');
   }
+
+  return mapConfigByAreaId[id];
 };

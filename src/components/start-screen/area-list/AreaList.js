@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import Continents from '../../maps/continents/Continents';
 import './_areaList.css';
 
-export default (props) => (
+export default props => (
   <div
     className="d-flex no-gutters
         flex-column align-items-stretch
@@ -18,15 +18,16 @@ export default (props) => (
           <h3 className="mb-4">{i.label}</h3>
           <div className="d-flex no-gutters gg-area">
             <div className="col-6 col-sm-4 gg-area-buttons">
-              <div className="mt-1 mb-2">
-                <Link className="btn btn-outline-primary" to={{pathname: i.id + '/countryName'}}>Country Name</Link>
-              </div>
-              <div className="mt-1 mb-2">
-                <Link className="btn btn-outline-primary" to={{pathname: i.id + '/capital'}}>Capital</Link>
-              </div>
-              <div className="mt-1 mb-2">
-                <Link className="btn btn-outline-primary" to={{pathname: i.id + '/flag'}}>Flag</Link>
-              </div>
+              {[
+                'countryName',
+                'capital',
+                'flag',
+              ].map(mode => (
+                <div className="mt-1 mb-2" key={mode}>
+                  <Link className="btn btn-outline-primary"
+                        to={`/${props.selectedLocale}/${i.id}/${mode}`}>{props.modes[mode]}</Link>
+                </div>
+              ))}
             </div>
             <div className="col-sm-8 gg-area-icon">
               <Continents active={i.id}/>

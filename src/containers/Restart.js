@@ -6,12 +6,11 @@ import Button from '../components/common/Button';
 
 class Restart extends Component {
   render() {
-    return <Button text={'Restart'}
+    return <Button text={this.props.label}
                    size={'small'}
-                   onClick={this.props.onClick}/>
+                   onClick={this.props.onClick}/>;
   }
 }
-
 
 const mapDispatchToProps = dispatch => ({
   onClick: () => {

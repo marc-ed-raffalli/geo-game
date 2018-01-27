@@ -1,3 +1,7 @@
+.gg-countryInfoPopup {
+  min-width: 100px;
+}
+
 .gg-countryInfoPopup-flag {
   max-width: 75px;
 }

@@ -7,7 +7,7 @@ export default props => (
              ref={elt => this.checkBox = elt}
              onChange={() => props.onChange(this.checkBox.checked)}
              type="checkbox"/>
-      <span>Don't show again</span>
+      <span>{props.label}</span>
     </label>
   </div>
 );

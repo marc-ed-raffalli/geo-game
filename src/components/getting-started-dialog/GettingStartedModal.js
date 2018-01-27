@@ -9,16 +9,16 @@ export default props => {
   let showHelpOnGameStart = true;
 
   return (
-    <Modal show={props.show} title={'Getting Started'}>
+    <Modal show={props.show} title={props.content.title}>
       {section => (
         section === 'body'
-          ? <GettingStartedHelp/>
+          ? <GettingStartedHelp content={props.content}/>
           : <div>
-            <RememberCheckbox onChange={val => showHelpOnGameStart = !val}/>
+            <RememberCheckbox label={props.content.doNotShowAgain} onChange={val => showHelpOnGameStart = !val}/>
             <button type="button"
                     className="btn btn-primary ml-2"
                     onClick={() => props.onPlayClick(showHelpOnGameStart)}>
-              Play
+              {props.content.play}
             </button>
           </div>
       )}

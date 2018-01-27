@@ -1,10 +1,10 @@
 import {Map} from '../actionTypes';
 import {fetchData} from '../services/countriesService';
 
-export const load = id => dispatch => {
-  dispatch({type: Map.FETCH_DATA, payload: id});
+export const load = (locale, id) => dispatch => {
+  dispatch({type: Map.FETCH_DATA, payload: {locale, id}});
 
-  return fetchData(id)
+  return fetchData(locale, id)
     .then(data => {
       dispatch({type: Map.FETCH_DATA_FULFILLED, payload: data});
       return data;

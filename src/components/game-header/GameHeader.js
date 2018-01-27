@@ -136,14 +136,16 @@ export default class GameHeader extends Component {
       ? <Rounds/>
       : (
         <div>
-          <Restart/>
+          <Restart label={this.props.translations.restart}/>
           {this.renderCloseLink()}
         </div>
       );
   }
 
   renderCloseLink() {
-    return <span className="pl-2 align-middle gg-gameHeader-menu" onClick={this.props.returnHomeScreen}>Close</span>;
+    const {returnHomeScreen, translations} = this.props;
+    return <span className="pl-2 align-middle gg-gameHeader-menu"
+                 onClick={returnHomeScreen}>{translations.close}</span>;
   }
 
   setTimerAnimation() {
