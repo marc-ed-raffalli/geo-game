@@ -1,48 +1,4 @@
-import bg from '../locales/bg';
-import ca from '../locales/ca';
-import cs from '../locales/cs';
-import da from '../locales/da';
-import de from '../locales/de';
 import en from '../locales/en';
-import es from '../locales/es';
-import fi from '../locales/fi';
-import fr from '../locales/fr';
-import ga from '../locales/ga';
-import gl from '../locales/gl';
-import hr from '../locales/hr';
-import it from '../locales/it';
-import ja from '../locales/ja';
-import nl from '../locales/nl';
-import nn from '../locales/nn';
-import pl from '../locales/pl';
-import pt from '../locales/pt';
-import ru from '../locales/ru';
-import zh from '../locales/zh';
-
-export const uiLocales = {
-  en,
-  fr,
-  // default all unset dictionary keys to english
-  // TODO add async loading for translations
-  bg: {...en, ...bg},
-  ca: {...en, ...ca},
-  cs: {...en, ...cs},
-  da: {...en, ...da},
-  de: {...en, ...de},
-  es: {...en, ...es},
-  fi: {...en, ...fi},
-  ga: {...en, ...ga},
-  gl: {...en, ...gl},
-  hr: {...en, ...hr},
-  it: {...en, ...it},
-  ja: {...en, ...ja},
-  nl: {...en, ...nl},
-  nn: {...en, ...nn},
-  pl: {...en, ...pl},
-  pt: {...en, ...pt},
-  ru: {...en, ...ru},
-  zh: {...en, ...zh},
-};
 
 export const supportedGameLocales = Object.freeze([
   {code: 'en', name: 'English'},
@@ -73,7 +29,12 @@ export const supportedGameLocalesByCode = Object.freeze(
 
 export const isLocaleSupported = locale => supportedGameLocalesByCode[locale] !== undefined;
 
-export const getTranslation = locale => uiLocales[locale];
+export const getTranslation = locale =>
+  import(`../locales/${locale}`)
+    .then(translations => ({
+      ...en, // need default keys to english as not all dictionaries are complete
+      ...translations
+    }));
 
 export const getBestMatchingLocale = () => {
   const defaultLocale = 'en';

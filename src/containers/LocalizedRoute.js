@@ -87,8 +87,11 @@ const mapDispatchToProps = dispatch => ({
     dispatch(initialize(supportedGameLocales));
   },
   setLocale: (locale) => {
-    dispatch(addTranslationForLanguage(getTranslation(locale), locale));
-    dispatch(setActiveLanguage(locale));
+    getTranslation(locale)
+      .then(translations => {
+        dispatch(addTranslationForLanguage(translations, locale));
+        dispatch(setActiveLanguage(locale));
+      });
   }
 });
 
