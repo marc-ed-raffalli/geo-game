@@ -32,13 +32,12 @@
     "intro": "Find the country by the name, capital city or flag given on the top of the page.",
     "info": "During the game, you can find the following information on the top of the page:",
     "list": {
-      "length": "5",
+      "length": "4",
       "items": {
         "0": "left:The current question number and the total number of questions",
         "1": "left:The remaining time:ion-android-stopwatch",
         "2": "middle:The country name, capital city or flag of the country to find",
-        "3": "right:Close, to quit the current game",
-        "4": "right:The score of the current game"
+        "3": "right:Close, to quit the current game"
       }
     },
     "doNotShowAgain": "Don't show again"

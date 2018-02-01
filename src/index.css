@@ -16,6 +16,27 @@ body {
 }
 
 .gg-main-body {
-  height: calc(100% - 60px - 30px);
+  height: calc(100% - 69px - 34px);
   box-sizing: border-box;
+}
+
+.gg-main-footer {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.gg-aside-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.gg-aside-body {
+  flex: 1 1;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  .gg-main-body {
+    height: calc(100% - 65px);
+  }
 }

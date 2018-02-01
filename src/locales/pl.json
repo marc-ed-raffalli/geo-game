@@ -32,13 +32,12 @@
     "intro": "Znajdź państwo po jego nazwie, stolicy lub fladze, znajdującej się na górze strony.",
     "info": "W trakcie gry znajdziesz poniższe informacje na górnym panelu:",
     "list": {
-      "length": "5",
+      "length": "4",
       "items": {
         "0": "po lewej:Numer aktualnego pytania i całkowita liczba pytań",
         "1": "po lewej:Pozostały czas:ion-android-stopwatch",
         "2": "po środku:Nazwa kraju, stolicy lub flaga kraju do znalezienia",
-        "3": "po prawej:Zamknij, aby zakończyć grę",
-        "4": "po prawej:Wynik gry"
+        "3": "po prawej:Zamknij, aby zakończyć grę"
       }
     },
     "doNotShowAgain": "Nie pokazuj ponownie"

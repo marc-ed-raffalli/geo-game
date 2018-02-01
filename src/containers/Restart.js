@@ -2,20 +2,21 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import {restartGame} from '../actions/gameActions';
-import Button from '../components/common/Button';
 
 class Restart extends Component {
   render() {
-    return <Button text={this.props.label}
-                   size={'small'}
-                   onClick={this.props.onClick}/>;
+    const props = this.props;
+
+    return (
+      <div onClick={props.onClick}>
+        {props.children}
+      </div>
+    );
   }
 }
 
 const mapDispatchToProps = dispatch => ({
-  onClick: () => {
-    dispatch(restartGame());
-  }
+  onClick: () => dispatch(restartGame())
 });
 
 export default connect(null, mapDispatchToProps)(Restart);

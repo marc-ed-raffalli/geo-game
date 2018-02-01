@@ -4,7 +4,7 @@ import QuestionItem from './QuestionItem';
 import './_questionList.css';
 
 export default (props) => (
-  <ul className="list-group h-100 gg-scroll">
+  <ul className="list-group">
     {props.questions.map((question, index) => (
       <QuestionItem
         isImg={props.isImg}

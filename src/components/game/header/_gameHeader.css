@@ -1,14 +1,30 @@
-.gg-gameHeader-menu {
-  cursor: pointer;
-}
-
 .gg-gameHeader-flag {
+  display: block;
   width: 50px;
+  min-height: 30px;
+  max-height: 100%;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .gg-gameHeader-timer {
   position: relative;
+}
+
+.gg-gameHeader-timer .gg-gameHeader-icon {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1;
+  height: 1.5rem;
+}
+
+.gg-gameHeader-restart,
+.gg-gameHeader-close {
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .gg-gameHeader-timerLabel {

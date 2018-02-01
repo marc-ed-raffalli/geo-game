@@ -30,15 +30,14 @@
   "gettingStarted": {
     "title": "Instructions",
     "intro": "Trouvez le pays par le nom, la capitale ou le drapeau donné en haut de la page.",
-    "info": "Pendant le jeu, vous pouvez trouver les informations suivantes en haut de la page:",
+    "info": "Pendant le jeu, vous trouverez les éléments suivants en haut de la page:",
     "list": {
-      "length": "5",
+      "length": "4",
       "items": {
         "0": "à gauche:Le numéro de la question actuelle et le nombre total de questions",
         "1": "à gauche:Le temps restant:ion-android-stopwatch",
         "2": "au milieu:Le nom du pays, la capitale ou le drapeau du pays à trouver",
-        "3": "à droite:Fermer, quitter le jeu en cours",
-        "4": "à droite:Le score du jeu en cours"
+        "3": "à droite:Quitter le jeu en cours"
       }
     },
     "doNotShowAgain": "Ne plus afficher"

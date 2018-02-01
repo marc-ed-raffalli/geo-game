@@ -14,15 +14,15 @@ const defaultState = {
     timeout: action.payload.duration || state.duration,
     active: true
   }),
-  stop = (state, action) => ({
+  stop = state => ({
     ...state,
     active: false
   }),
-  reset = (state, action) => ({
+  reset = state => ({
     ...state,
     timeout: state.duration
   }),
-  decrement = (state) => ({
+  decrement = state => ({
     ...state,
     timeout: state.timeout - 1
   })
@@ -33,4 +33,4 @@ export default mapActionToReducer({
   [Timer.STOP]: stop,
   [Timer.RESET]: reset,
   [Timer.DECREMENT]: decrement,
-}, defaultState)
+}, defaultState);

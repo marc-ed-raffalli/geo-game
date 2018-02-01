@@ -9,7 +9,7 @@
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-ga": "^2.4.1",
-    "react-ionicons": "^1.5.9",
+    "react-icons": "^2.2.7",
     "react-leaflet": "^1.8.0",
     "react-localize-redux": "^2.14.1",
     "react-redux": "^5.0.6",

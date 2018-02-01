@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {getTranslate, getActiveLanguage} from 'react-localize-redux';
+import {getActiveLanguage, getTranslate} from 'react-localize-redux';
 
 import * as gameActions from '../actions/gameActions';
 import {hideHelp, showHelp} from '../actions/profileActions';
 
-import GameHeader from '../components/game-header/GameHeader';
+import GameHeader from '../components/game/header/GameHeader';
 import QuestionList from '../components/question-list/QuestionList';
+import ScoresTable from '../components/game/ScoresTable';
 import Loader from '../components/common/Loader';
 import GettingStartedModal from '../components/getting-started-dialog/GettingStartedModal';
-import GameMap from './GameMap';
-import SocialNetworks from '../components/social/SocialNetworks';
 
-import {colors, gameConfig, gameModes, gameStatus, locale} from '../constants';
+import GameMap from './GameMap';
+
+import {colors, gameConfig, gameModes, gameStatus} from '../constants';
 
 class GameScreen extends Component {
 
@@ -61,14 +62,21 @@ class GameScreen extends Component {
 
         <div className="row h-100 no-gutters">
 
-          <div className="col-md-2 h-100 pt-3 pb-3 pr-3 d-none d-md-block">
-            <QuestionList questions={questions}
-                          answers={answers}
-                          isImg={mode === gameModes.flag}/>
-          </div>
+          <aside className="col-md-2 h-100 pt-3 pb-3 pr-3 d-none d-md-block">
+            <div className="gg-aside-content h-100">
+              <div className="gg-aside-header mb-2">
+                <ScoresTable/>
+              </div>
+              <div className="gg-aside-body">
+                <QuestionList questions={questions}
+                              answers={answers}
+                              isImg={mode === gameModes.flag}/>
+              </div>
+            </div>
+          </aside>
 
           <div className="col-md-10 h-100 pt-3 pb-2">
-            <header className="gg-main-header pb-2">
+            <header className="gg-main-header mb-2 bg-light">
               <GameHeader status={status}
                           question={question.display}
                           timerColor={timeout < duration * 0.25 ? colors.redError : colors.greenOk}
@@ -78,8 +86,12 @@ class GameScreen extends Component {
                           translations={translations}
                           returnHomeScreen={redirectToHomeScreen}/>
             </header>
+
             <div className="gg-main-body pb-2"><GameMap/></div>
-            <footer><SocialNetworks locale={locale}/></footer>
+
+            <footer className="gg-main-footer d-md-none">
+              <ScoresTable/>
+            </footer>
           </div>
 
         </div>

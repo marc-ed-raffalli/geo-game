@@ -27,7 +27,6 @@ export const mapConfig = {
 };
 
 export const footerItems = [
-  {text: '© 2017 - Marc Ed. Raffalli'},
   {id: 'credits', url: 'https://marc-ed-raffalli.github.io/en/projects/geo-game#credits'},
   {id: 'about', url: 'https://marc-ed-raffalli.github.io/en/projects/geo-game'},
   {id: 'issue', url: 'https://github.com/marc-ed-raffalli/geo-game/issues'},
