@@ -40,8 +40,12 @@ class LocalizedRoute extends Component {
 
   setLocale(locale) {
     if (locale && locale !== this.state.currentLocale && isLocaleSupported(locale)) {
-      this.setState(() => ({currentLocale: locale}));
-      this.props.setLocale(locale);
+      this.props.setLocale(locale)
+        .then(() => {
+          // only set the locale after it is loaded
+          // fix for game loading in en after page refresh
+          this.setState(() => ({currentLocale: locale}));
+        });
     }
   }
 
@@ -86,13 +90,12 @@ const mapDispatchToProps = dispatch => ({
   initializeLocalization: () => {
     dispatch(initialize(supportedGameLocales));
   },
-  setLocale: (locale) => {
+  setLocale: locale =>
     getTranslation(locale)
       .then(translations => {
         dispatch(addTranslationForLanguage(translations, locale));
         dispatch(setActiveLanguage(locale));
-      });
-  }
+      })
 });
 
 export default connect(
