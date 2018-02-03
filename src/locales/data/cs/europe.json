@@ -1,0 +1,457 @@
+{
+  "AD": {
+    "name": "Andorra",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  },
+  "AL": {
+    "name": "Albánie",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  },
+  "AT": {
+    "name": "Rakousko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Vídeň"
+  },
+  "AX": {
+    "name": "Ålandy",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Mariehamn"
+  },
+  "BA": {
+    "name": "Bosna a Hercegovina",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Sarajevo"
+  },
+  "BE": {
+    "name": "Belgie",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Brusel"
+  },
+  "BG": {
+    "name": "Bulharsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Sofie"
+  },
+  "BY": {
+    "name": "Bělorusko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Minsk"
+  },
+  "CH": {
+    "name": "Švýcarsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ]
+  },
+  "CZ": {
+    "name": "Česko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Praha"
+  },
+  "DE": {
+    "name": "Německo",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Berlín"
+  },
+  "DK": {
+    "name": "Dánsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Kodaň"
+  },
+  "EE": {
+    "name": "Estonsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Tallinn"
+  },
+  "ES": {
+    "name": "Španělsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Madrid"
+  },
+  "FI": {
+    "name": "Finsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Helsinky"
+  },
+  "FO": {
+    "name": "Faerské ostrovy",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ]
+  },
+  "FR": {
+    "name": "Francie",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Paříž"
+  },
+  "GB": {
+    "name": "Spojené království",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Londýn"
+  },
+  "GG": {
+    "name": "Guernsey",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ]
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Gibraltar"
+  },
+  "GR": {
+    "name": "Řecko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Athény"
+  },
+  "HR": {
+    "name": "Chorvatsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Záhřeb"
+  },
+  "HU": {
+    "name": "Maďarsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Budapešť"
+  },
+  "IE": {
+    "name": "Irsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Dublin"
+  },
+  "IM": {
+    "name": "Ostrov Man",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ]
+  },
+  "IS": {
+    "name": "Island",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Reykjavík"
+  },
+  "IT": {
+    "name": "Itálie",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Řím"
+  },
+  "JE": {
+    "name": "Jersey",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ]
+  },
+  "LI": {
+    "name": "Lichtenštejnsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Vaduz"
+  },
+  "LT": {
+    "name": "Litva",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Vilnius"
+  },
+  "LU": {
+    "name": "Lucembursko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Lucemburk"
+  },
+  "LV": {
+    "name": "Lotyšsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Riga"
+  },
+  "MC": {
+    "name": "Monako",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Monako"
+  },
+  "MD": {
+    "name": "Moldavsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ]
+  },
+  "ME": {
+    "name": "Černá Hora",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Podgorica"
+  },
+  "MK": {
+    "name": "Makedonie",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Skopje"
+  },
+  "MT": {
+    "name": "Malta",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  },
+  "NL": {
+    "name": "Nizozemsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "západní Evropa"
+    ],
+    "capital": "Amsterdam"
+  },
+  "NO": {
+    "name": "Norsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Oslo"
+  },
+  "PL": {
+    "name": "Polsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Varšava"
+  },
+  "PT": {
+    "name": "Portugalsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Lisabon"
+  },
+  "RO": {
+    "name": "Rumunsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Bukurešť"
+  },
+  "RS": {
+    "name": "Srbsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Bělehrad"
+  },
+  "RU": {
+    "name": "Rusko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Moskva"
+  },
+  "SE": {
+    "name": "Švédsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Stockholm"
+  },
+  "SI": {
+    "name": "Slovinsko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ],
+    "capital": "Lublaň"
+  },
+  "SJ": {
+    "name": "Špicberky a Jan Mayen",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "severní Evropa"
+    ],
+    "capital": "Longyearbyen"
+  },
+  "SK": {
+    "name": "Slovensko",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ],
+    "capital": "Bratislava"
+  },
+  "SM": {
+    "name": "San Marino",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  },
+  "UA": {
+    "name": "Ukrajina",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "východní Evropa"
+    ]
+  },
+  "VA": {
+    "name": "Vatikán",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  },
+  "XK": {
+    "name": "Kosovo",
+    "continent": "Evropa",
+    "locatedIn": [
+      "Evropa",
+      "jižní Evropa"
+    ]
+  }
+}

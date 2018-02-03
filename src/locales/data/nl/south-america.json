@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentinië",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolivia",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ]
+  },
+  "BR": {
+    "name": "Brazilië",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ]
+  },
+  "CL": {
+    "name": "Chili",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Colombia",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ]
+  },
+  "EC": {
+    "name": "Ecuador",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ]
+  },
+  "FK": {
+    "name": "Falklandeilanden",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Frans-Guyana",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Cayenne"
+  },
+  "GY": {
+    "name": "Guyana",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ]
+  },
+  "PE": {
+    "name": "Peru",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Suriname",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "Zuid-Amerika",
+    "locatedIn": [
+      "Zuid-Amerika"
+    ],
+    "capital": "Caracas"
+  }
+}

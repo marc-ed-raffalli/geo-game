@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentina",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolivia",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ]
+  },
+  "BR": {
+    "name": "Brasil",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ]
+  },
+  "CL": {
+    "name": "Chile",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Colombia",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ]
+  },
+  "EC": {
+    "name": "Ecuador",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ]
+  },
+  "FK": {
+    "name": "Falklandsøyane",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Fransk Guyana",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Cayenne"
+  },
+  "GY": {
+    "name": "Guyana",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ]
+  },
+  "PE": {
+    "name": "Peru",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Surinam",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "Sør-Amerika",
+    "locatedIn": [
+      "Sør-Amerika"
+    ],
+    "capital": "Caracas"
+  }
+}

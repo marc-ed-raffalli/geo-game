@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentina",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolivija",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ]
+  },
+  "BR": {
+    "name": "Brazil",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ]
+  },
+  "CL": {
+    "name": "Čile",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Kolumbija",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ]
+  },
+  "EC": {
+    "name": "Ekvador",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ]
+  },
+  "FK": {
+    "name": "Falklandski otoci",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Francuska Gijana",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Cayenne"
+  },
+  "GY": {
+    "name": "Gvajana",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ]
+  },
+  "PE": {
+    "name": "Peru",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paragvaj",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Surinam",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Urugvaj",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "Južna Amerika",
+    "locatedIn": [
+      "Južna Amerika"
+    ],
+    "capital": "Caracas"
+  }
+}

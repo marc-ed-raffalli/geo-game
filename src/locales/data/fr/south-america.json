@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentine",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolivie",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ]
+  },
+  "BR": {
+    "name": "Brésil",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ]
+  },
+  "CL": {
+    "name": "Chili",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Colombie",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ]
+  },
+  "EC": {
+    "name": "Équateur",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ]
+  },
+  "FK": {
+    "name": "Îles Malouines",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Guyane française",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Cayenne"
+  },
+  "GY": {
+    "name": "Guyana",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ]
+  },
+  "PE": {
+    "name": "Pérou",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Suriname",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "Amérique du Sud",
+    "locatedIn": [
+      "Amérique du Sud"
+    ],
+    "capital": "Caracas"
+  }
+}

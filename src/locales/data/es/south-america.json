@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentina",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolivia",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ]
+  },
+  "BR": {
+    "name": "Brasil",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ]
+  },
+  "CL": {
+    "name": "Chile",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Colombia",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ]
+  },
+  "EC": {
+    "name": "Ecuador",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ]
+  },
+  "FK": {
+    "name": "Islas Malvinas",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Guayana Francesa",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Cayena"
+  },
+  "GY": {
+    "name": "Guyana",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ]
+  },
+  "PE": {
+    "name": "Perú",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Surinam",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "Sudamérica",
+    "locatedIn": [
+      "Sudamérica"
+    ],
+    "capital": "Caracas"
+  }
+}

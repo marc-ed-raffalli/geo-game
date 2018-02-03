@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentyna",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Boliwia",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ]
+  },
+  "BR": {
+    "name": "Brazylia",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ]
+  },
+  "CL": {
+    "name": "Chile",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Kolumbia",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ]
+  },
+  "EC": {
+    "name": "Ekwador",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ]
+  },
+  "FK": {
+    "name": "Falklandy",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Gujana Francuska",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Kajenna"
+  },
+  "GY": {
+    "name": "Gujana",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ]
+  },
+  "PE": {
+    "name": "Peru",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paragwaj",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Asunción"
+  },
+  "SR": {
+    "name": "Surinam",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Urugwaj",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Montevideo"
+  },
+  "VE": {
+    "name": "Wenezuela",
+    "continent": "Ameryka Południowa",
+    "locatedIn": [
+      "Ameryka Południowa"
+    ],
+    "capital": "Caracas"
+  }
+}

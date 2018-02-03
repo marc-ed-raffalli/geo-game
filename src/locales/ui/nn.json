@@ -1,0 +1,10 @@
+{
+  "continents": {
+    "asia": "Asia",
+    "europe": "Europa",
+    "africa": "Afrika",
+    "north-america": "Nord-Amerika",
+    "south-america": "Sør-Amerika",
+    "oceania": "Oseania"
+  }
+}

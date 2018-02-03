@@ -1,0 +1,341 @@
+{
+  "AG": {
+    "name": "Antigua und Barbuda",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "AI": {
+    "name": "Anguilla",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "AW": {
+    "name": "Aruba",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "BB": {
+    "name": "Barbados",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "BL": {
+    "name": "St. Barthélemy",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "BM": {
+    "name": "Bermuda",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Nördliches Amerika"
+    ]
+  },
+  "BQ": {
+    "name": "Bonaire, Sint Eustatius und Saba",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "BS": {
+    "name": "Bahamas",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Nassau"
+  },
+  "BZ": {
+    "name": "Belize",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ]
+  },
+  "CA": {
+    "name": "Kanada",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Nördliches Amerika"
+    ]
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ]
+  },
+  "CU": {
+    "name": "Kuba",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Havanna"
+  },
+  "CW": {
+    "name": "Curaçao",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "DM": {
+    "name": "Dominica",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "DO": {
+    "name": "Dominikanische Republik",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Santo Domingo"
+  },
+  "GD": {
+    "name": "Grenada",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "GL": {
+    "name": "Grönland",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Nördliches Amerika"
+    ],
+    "capital": "Nuuk"
+  },
+  "GP": {
+    "name": "Guadeloupe",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "GT": {
+    "name": "Guatemala",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ]
+  },
+  "HN": {
+    "name": "Honduras",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ],
+    "capital": "Tegucigalpa"
+  },
+  "HT": {
+    "name": "Haiti",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Port-au-Prince"
+  },
+  "JM": {
+    "name": "Jamaika",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "KN": {
+    "name": "St. Kitts und Nevis",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "KY": {
+    "name": "Kaimaninseln",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "LC": {
+    "name": "St. Lucia",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "MF": {
+    "name": "St. Martin",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Marigot"
+  },
+  "MQ": {
+    "name": "Martinique",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "MS": {
+    "name": "Montserrat",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "MX": {
+    "name": "Mexiko",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ],
+    "capital": "Mexiko-Stadt"
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ],
+    "capital": "Managua"
+  },
+  "PA": {
+    "name": "Panama",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ]
+  },
+  "PM": {
+    "name": "St. Pierre und Miquelon",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Nördliches Amerika"
+    ]
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "San Juan"
+  },
+  "SV": {
+    "name": "El Salvador",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Mittelamerika"
+    ]
+  },
+  "SX": {
+    "name": "Sint Maarten",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "TC": {
+    "name": "Turks- und Caicosinseln",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "TT": {
+    "name": "Trinidad und Tobago",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ],
+    "capital": "Port of Spain"
+  },
+  "US": {
+    "name": "Vereinigte Staaten",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Nördliches Amerika"
+    ]
+  },
+  "VC": {
+    "name": "St. Vincent und die Grenadinen",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "VG": {
+    "name": "Britische Jungferninseln",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  },
+  "VI": {
+    "name": "Amerikanische Jungferninseln",
+    "continent": "Nordamerika",
+    "locatedIn": [
+      "Nordamerika",
+      "Karibik"
+    ]
+  }
+}

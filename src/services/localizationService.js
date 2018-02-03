@@ -1,4 +1,4 @@
-import en from '../locales/en';
+import en from '../locales/ui/en';
 
 export const supportedGameLocales = Object.freeze([
   {code: 'en', name: 'English'},
@@ -30,7 +30,7 @@ export const supportedGameLocalesByCode = Object.freeze(
 export const isLocaleSupported = locale => supportedGameLocalesByCode[locale] !== undefined;
 
 export const getTranslation = locale =>
-  import(`../locales/${locale}`)
+  import(`../locales/ui/${locale}`)
     .then(translations => ({
       ...en, // need default keys to english as not all dictionaries are complete
       ...translations
@@ -61,10 +61,6 @@ export const fetchData = (locale, continent) => {
     return Promise.reject('Locale not supported');
   }
 
-  return fetch(`locales/${locale}/${continent}.json`)
-    .then(response => response.json())
-    .catch(function (ex) {
-      console.error('parsing failed', ex);
-    });
+  return import(`../locales/data/${locale}/${continent}`);
 };
 

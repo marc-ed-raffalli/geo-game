@@ -1,0 +1,443 @@
+{
+  "AE": {
+    "name": "Emirados Árabes Unidos",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "AF": {
+    "name": "Afeganistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Kabul"
+  },
+  "AM": {
+    "name": "Armênia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Yerevan"
+  },
+  "AZ": {
+    "name": "Azerbaijão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Baku"
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Dacca"
+  },
+  "BH": {
+    "name": "Bahrein",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "BN": {
+    "name": "Brunei",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ]
+  },
+  "BT": {
+    "name": "Butão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Timphu"
+  },
+  "CN": {
+    "name": "China",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ]
+  },
+  "CY": {
+    "name": "Chipre",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Nicósia"
+  },
+  "GE": {
+    "name": "Geórgia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Tbilisi"
+  },
+  "HK": {
+    "name": "Hong Kong, RAE da China",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ]
+  },
+  "ID": {
+    "name": "Indonésia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Jacarta"
+  },
+  "IL": {
+    "name": "Israel",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Jerusalém"
+  },
+  "IN": {
+    "name": "Índia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ]
+  },
+  "IQ": {
+    "name": "Iraque",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Bagdá"
+  },
+  "IR": {
+    "name": "Irã",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Teerã"
+  },
+  "JO": {
+    "name": "Jordânia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Amã"
+  },
+  "JP": {
+    "name": "Japão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ],
+    "capital": "Tóquio"
+  },
+  "KG": {
+    "name": "Quirguistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Central"
+    ],
+    "capital": "Bishkek"
+  },
+  "KH": {
+    "name": "Camboja",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Phnom Penh"
+  },
+  "KP": {
+    "name": "Coreia do Norte",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ],
+    "capital": "Pyongyang"
+  },
+  "KR": {
+    "name": "Coreia do Sul",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ],
+    "capital": "Seul"
+  },
+  "KW": {
+    "name": "Kuwait",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "KZ": {
+    "name": "Cazaquistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Central"
+    ]
+  },
+  "LA": {
+    "name": "Laos",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Vientiane"
+  },
+  "LB": {
+    "name": "Líbano",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Beirute"
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Colombo"
+  },
+  "MM": {
+    "name": "Mianmar (Birmânia)",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ]
+  },
+  "MN": {
+    "name": "Mongólia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ]
+  },
+  "MO": {
+    "name": "Macau, RAE da China",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ]
+  },
+  "MV": {
+    "name": "Maldivas",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ]
+  },
+  "MY": {
+    "name": "Malásia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Kuala Lampur"
+  },
+  "NP": {
+    "name": "Nepal",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ],
+    "capital": "Catmandu"
+  },
+  "OM": {
+    "name": "Omã",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Mascate"
+  },
+  "PH": {
+    "name": "Filipinas",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Manila"
+  },
+  "PK": {
+    "name": "Paquistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Meridional"
+    ]
+  },
+  "PS": {
+    "name": "Territórios palestinos",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "QA": {
+    "name": "Catar",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "SA": {
+    "name": "Arábia Saudita",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Riade"
+  },
+  "SG": {
+    "name": "Singapura",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Cingapura"
+  },
+  "SY": {
+    "name": "Síria",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ],
+    "capital": "Damasco"
+  },
+  "TH": {
+    "name": "Tailândia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Bangkok"
+  },
+  "TJ": {
+    "name": "Tadjiquistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Central"
+    ],
+    "capital": "Duchambe"
+  },
+  "TL": {
+    "name": "Timor-Leste",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ],
+    "capital": "Dili"
+  },
+  "TM": {
+    "name": "Turcomenistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Central"
+    ],
+    "capital": "Asgabate"
+  },
+  "TR": {
+    "name": "Turquia",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  },
+  "TW": {
+    "name": "Taiwan",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Oriental"
+    ],
+    "capital": "Taipei"
+  },
+  "UZ": {
+    "name": "Uzbequistão",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Central"
+    ],
+    "capital": "Tashkent"
+  },
+  "VN": {
+    "name": "Vietnã",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Sudeste Asiático"
+    ]
+  },
+  "YE": {
+    "name": "Iêmen",
+    "continent": "Ásia",
+    "locatedIn": [
+      "Ásia",
+      "Ásia Ocidental"
+    ]
+  }
+}

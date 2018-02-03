@@ -1,0 +1,109 @@
+{
+  "AR": {
+    "name": "Argentina",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Buenos Aires"
+  },
+  "BO": {
+    "name": "Bolívia",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ]
+  },
+  "BR": {
+    "name": "Brasil",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ]
+  },
+  "CL": {
+    "name": "Chile",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Santiago"
+  },
+  "CO": {
+    "name": "Colômbia",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ]
+  },
+  "EC": {
+    "name": "Equador",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ]
+  },
+  "FK": {
+    "name": "Ilhas Malvinas",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Stanley"
+  },
+  "GF": {
+    "name": "Guiana Francesa",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Caiena"
+  },
+  "GY": {
+    "name": "Guiana",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ]
+  },
+  "PE": {
+    "name": "Peru",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Lima"
+  },
+  "PY": {
+    "name": "Paraguai",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Assunção"
+  },
+  "SR": {
+    "name": "Suriname",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Paramaribo"
+  },
+  "UY": {
+    "name": "Uruguai",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Montevidéu"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "continent": "América do Sul",
+    "locatedIn": [
+      "América do Sul"
+    ],
+    "capital": "Caracas"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "continents": {
+    "asia": "an Áise",
+    "europe": "an Eoraip",
+    "africa": "An Afraic",
+    "north-america": "Meiriceá Thuaidh",
+    "south-america": "Meiriceá Theas",
+    "oceania": "an Aigéine"
+  }
+}

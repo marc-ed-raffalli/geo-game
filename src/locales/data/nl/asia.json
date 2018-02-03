@@ -1,0 +1,443 @@
+{
+  "AE": {
+    "name": "Verenigde Arabische Emiraten",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "AF": {
+    "name": "Afghanistan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Kabul"
+  },
+  "AM": {
+    "name": "Armenië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Jerevan"
+  },
+  "AZ": {
+    "name": "Azerbeidzjan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Bakoe"
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Dhaka"
+  },
+  "BH": {
+    "name": "Bahrein",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "BN": {
+    "name": "Brunei",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ]
+  },
+  "BT": {
+    "name": "Bhutan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Thimphu"
+  },
+  "CN": {
+    "name": "China",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ]
+  },
+  "CY": {
+    "name": "Cyprus",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Nicosia"
+  },
+  "GE": {
+    "name": "Georgië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Tbilisi"
+  },
+  "HK": {
+    "name": "Hongkong SAR van China",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ]
+  },
+  "ID": {
+    "name": "Indonesië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Jakarta"
+  },
+  "IL": {
+    "name": "Israël",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Jeruzalem"
+  },
+  "IN": {
+    "name": "India",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ]
+  },
+  "IQ": {
+    "name": "Irak",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Bagdad"
+  },
+  "IR": {
+    "name": "Iran",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Teheran"
+  },
+  "JO": {
+    "name": "Jordanië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Amman"
+  },
+  "JP": {
+    "name": "Japan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ],
+    "capital": "Tokio"
+  },
+  "KG": {
+    "name": "Kirgizië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Centraal-Azië"
+    ],
+    "capital": "Bisjkek"
+  },
+  "KH": {
+    "name": "Cambodja",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Phnom-Penh"
+  },
+  "KP": {
+    "name": "Noord-Korea",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ],
+    "capital": "Pyongyang"
+  },
+  "KR": {
+    "name": "Zuid-Korea",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ],
+    "capital": "Seoul"
+  },
+  "KW": {
+    "name": "Koeweit",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "KZ": {
+    "name": "Kazachstan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Centraal-Azië"
+    ]
+  },
+  "LA": {
+    "name": "Laos",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Vientiane"
+  },
+  "LB": {
+    "name": "Libanon",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Beiroet"
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Colombo"
+  },
+  "MM": {
+    "name": "Myanmar (Birma)",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ]
+  },
+  "MN": {
+    "name": "Mongolië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ]
+  },
+  "MO": {
+    "name": "Macau SAR van China",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ]
+  },
+  "MV": {
+    "name": "Maldiven",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ]
+  },
+  "MY": {
+    "name": "Maleisië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Kuala Lumpur"
+  },
+  "NP": {
+    "name": "Nepal",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ],
+    "capital": "Kathmandu"
+  },
+  "OM": {
+    "name": "Oman",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Muscat"
+  },
+  "PH": {
+    "name": "Filipijnen",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Manilla"
+  },
+  "PK": {
+    "name": "Pakistan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuid-Azië"
+    ]
+  },
+  "PS": {
+    "name": "Palestijnse gebieden",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "QA": {
+    "name": "Qatar",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "SA": {
+    "name": "Saoedi-Arabië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Riyad"
+  },
+  "SG": {
+    "name": "Singapore",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Singapore"
+  },
+  "SY": {
+    "name": "Syrië",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ],
+    "capital": "Damascus"
+  },
+  "TH": {
+    "name": "Thailand",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Bangkok"
+  },
+  "TJ": {
+    "name": "Tadzjikistan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Centraal-Azië"
+    ],
+    "capital": "Doesjanbe"
+  },
+  "TL": {
+    "name": "Oost-Timor",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ],
+    "capital": "Dili"
+  },
+  "TM": {
+    "name": "Turkmenistan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Centraal-Azië"
+    ],
+    "capital": "Asjchabad"
+  },
+  "TR": {
+    "name": "Turkije",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  },
+  "TW": {
+    "name": "Taiwan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Oost-Azië"
+    ],
+    "capital": "Taipei"
+  },
+  "UZ": {
+    "name": "Oezbekistan",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Centraal-Azië"
+    ],
+    "capital": "Tasjkent"
+  },
+  "VN": {
+    "name": "Vietnam",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "Zuidoost-Azië"
+    ]
+  },
+  "YE": {
+    "name": "Jemen",
+    "continent": "Azië",
+    "locatedIn": [
+      "Azië",
+      "West-Azië"
+    ]
+  }
+}

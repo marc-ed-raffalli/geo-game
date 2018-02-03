@@ -1,0 +1,209 @@
+{
+  "AS": {
+    "name": "Samoa américaines",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ],
+    "capital": "Pago Pago"
+  },
+  "AU": {
+    "name": "Australie",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Australasie"
+    ]
+  },
+  "CK": {
+    "name": "Îles Cook",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "FJ": {
+    "name": "Fidji",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Mélanésie"
+    ]
+  },
+  "FM": {
+    "name": "États fédérés de Micronésie",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ]
+  },
+  "GU": {
+    "name": "Guam",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ]
+  },
+  "KI": {
+    "name": "Kiribati",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ]
+  },
+  "MH": {
+    "name": "Îles Marshall",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ],
+    "capital": "Majuro"
+  },
+  "MP": {
+    "name": "Îles Mariannes du Nord",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ],
+    "capital": "Saipan"
+  },
+  "NC": {
+    "name": "Nouvelle-Calédonie",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Mélanésie"
+    ]
+  },
+  "NF": {
+    "name": "Île Norfolk",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Australasie"
+    ]
+  },
+  "NR": {
+    "name": "Nauru",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ]
+  },
+  "NU": {
+    "name": "Niue",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "NZ": {
+    "name": "Nouvelle-Zélande",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Australasie"
+    ]
+  },
+  "PF": {
+    "name": "Polynésie française",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "PG": {
+    "name": "Papouasie-Nouvelle-Guinée",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Mélanésie"
+    ],
+    "capital": "Port Moresby"
+  },
+  "PN": {
+    "name": "Îles Pitcairn",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "PW": {
+    "name": "Palaos",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "région micronésienne"
+    ]
+  },
+  "SB": {
+    "name": "Îles Salomon",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Mélanésie"
+    ]
+  },
+  "TK": {
+    "name": "Tokélaou",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ],
+    "capital": "Fakaofo"
+  },
+  "TO": {
+    "name": "Tonga",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ],
+    "capital": "Funafuti"
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Mélanésie"
+    ]
+  },
+  "WF": {
+    "name": "Wallis-et-Futuna",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ]
+  },
+  "WS": {
+    "name": "Samoa",
+    "continent": "Océanie",
+    "locatedIn": [
+      "Océanie",
+      "Polynésie"
+    ],
+    "capital": "Apia"
+  }
+}

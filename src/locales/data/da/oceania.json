@@ -1,0 +1,209 @@
+{
+  "AS": {
+    "name": "Amerikansk Samoa",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ],
+    "capital": "Pago Pago"
+  },
+  "AU": {
+    "name": "Australien",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Australasien"
+    ]
+  },
+  "CK": {
+    "name": "Cookøerne",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "FJ": {
+    "name": "Fiji",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Melanesien"
+    ]
+  },
+  "FM": {
+    "name": "Mikronesien",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ]
+  },
+  "GU": {
+    "name": "Guam",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ]
+  },
+  "KI": {
+    "name": "Kiribati",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ]
+  },
+  "MH": {
+    "name": "Marshalløerne",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ],
+    "capital": "Majuro"
+  },
+  "MP": {
+    "name": "Nordmarianerne",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ],
+    "capital": "Saipan"
+  },
+  "NC": {
+    "name": "Ny Kaledonien",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Melanesien"
+    ]
+  },
+  "NF": {
+    "name": "Norfolk Island",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Australasien"
+    ]
+  },
+  "NR": {
+    "name": "Nauru",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ]
+  },
+  "NU": {
+    "name": "Niue",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Australasien"
+    ]
+  },
+  "PF": {
+    "name": "Fransk Polynesien",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "PG": {
+    "name": "Papua Ny Guinea",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Melanesien"
+    ],
+    "capital": "Port Moresby"
+  },
+  "PN": {
+    "name": "Pitcairn",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "PW": {
+    "name": "Palau",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Mikronesiske område"
+    ]
+  },
+  "SB": {
+    "name": "Salomonøerne",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Melanesien"
+    ]
+  },
+  "TK": {
+    "name": "Tokelau",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ],
+    "capital": "Fakaofo"
+  },
+  "TO": {
+    "name": "Tonga",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ],
+    "capital": "Funafuti"
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Melanesien"
+    ]
+  },
+  "WF": {
+    "name": "Wallis og Futuna",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ]
+  },
+  "WS": {
+    "name": "Samoa",
+    "continent": "Oceanien",
+    "locatedIn": [
+      "Oceanien",
+      "Polynesien"
+    ],
+    "capital": "Apia"
+  }
+}

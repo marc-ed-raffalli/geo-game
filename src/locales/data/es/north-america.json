@@ -1,0 +1,341 @@
+{
+  "AG": {
+    "name": "Antigua y Barbuda",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "AI": {
+    "name": "Anguila",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "AW": {
+    "name": "Aruba",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "BB": {
+    "name": "Barbados",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "BL": {
+    "name": "San Bartolomé",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "BM": {
+    "name": "Bermudas",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Norteamérica"
+    ]
+  },
+  "BQ": {
+    "name": "Caribe neerlandés",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "BS": {
+    "name": "Bahamas",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "Nassau"
+  },
+  "BZ": {
+    "name": "Belice",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ]
+  },
+  "CA": {
+    "name": "Canadá",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Norteamérica"
+    ]
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ]
+  },
+  "CU": {
+    "name": "Cuba",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "La Habana"
+  },
+  "CW": {
+    "name": "Curazao",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "DM": {
+    "name": "Dominica",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "DO": {
+    "name": "República Dominicana",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "Santo Domingo"
+  },
+  "GD": {
+    "name": "Granada",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "GL": {
+    "name": "Groenlandia",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Norteamérica"
+    ],
+    "capital": "Nuuk"
+  },
+  "GP": {
+    "name": "Guadalupe",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "GT": {
+    "name": "Guatemala",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ]
+  },
+  "HN": {
+    "name": "Honduras",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ],
+    "capital": "Tegucigalpa"
+  },
+  "HT": {
+    "name": "Haití",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "Puerto Príncipe"
+  },
+  "JM": {
+    "name": "Jamaica",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "KN": {
+    "name": "San Cristóbal y Nieves",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "KY": {
+    "name": "Islas Caimán",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "LC": {
+    "name": "Santa Lucía",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "MF": {
+    "name": "San Martín",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "Marigot"
+  },
+  "MQ": {
+    "name": "Martinica",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "MS": {
+    "name": "Montserrat",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "MX": {
+    "name": "México",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ],
+    "capital": "Ciudad de México"
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ],
+    "capital": "Managua"
+  },
+  "PA": {
+    "name": "Panamá",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ]
+  },
+  "PM": {
+    "name": "San Pedro y Miquelón",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Norteamérica"
+    ]
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "San Juan"
+  },
+  "SV": {
+    "name": "El Salvador",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Centroamérica"
+    ]
+  },
+  "SX": {
+    "name": "Sint Maarten",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "TC": {
+    "name": "Islas Turcas y Caicos",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "TT": {
+    "name": "Trinidad y Tobago",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ],
+    "capital": "Puerto España"
+  },
+  "US": {
+    "name": "Estados Unidos",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Norteamérica"
+    ]
+  },
+  "VC": {
+    "name": "San Vicente y las Granadinas",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "VG": {
+    "name": "Islas Vírgenes Británicas",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  },
+  "VI": {
+    "name": "Islas Vírgenes de EE. UU.",
+    "continent": "América del Norte",
+    "locatedIn": [
+      "América del Norte",
+      "Caribe"
+    ]
+  }
+}

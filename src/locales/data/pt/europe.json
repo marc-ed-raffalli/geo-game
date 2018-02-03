@@ -1,0 +1,457 @@
+{
+  "AD": {
+    "name": "Andorra",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  },
+  "AL": {
+    "name": "Albânia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  },
+  "AT": {
+    "name": "Áustria",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Viena"
+  },
+  "AX": {
+    "name": "Ilhas Aland",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Mariehamn"
+  },
+  "BA": {
+    "name": "Bósnia e Herzegovina",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Sarajevo"
+  },
+  "BE": {
+    "name": "Bélgica",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Bruxelas"
+  },
+  "BG": {
+    "name": "Bulgária",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Sófia"
+  },
+  "BY": {
+    "name": "Bielorrússia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Minsk"
+  },
+  "CH": {
+    "name": "Suíça",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ]
+  },
+  "CZ": {
+    "name": "Tchéquia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Praga"
+  },
+  "DE": {
+    "name": "Alemanha",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Berlim"
+  },
+  "DK": {
+    "name": "Dinamarca",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Copenhague"
+  },
+  "EE": {
+    "name": "Estônia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Tallinn"
+  },
+  "ES": {
+    "name": "Espanha",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Madri"
+  },
+  "FI": {
+    "name": "Finlândia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Helsinque"
+  },
+  "FO": {
+    "name": "Ilhas Faroe",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ]
+  },
+  "FR": {
+    "name": "França",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Paris"
+  },
+  "GB": {
+    "name": "Reino Unido",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Londres"
+  },
+  "GG": {
+    "name": "Guernsey",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ]
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Gibraltar"
+  },
+  "GR": {
+    "name": "Grécia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Atenas"
+  },
+  "HR": {
+    "name": "Croácia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Zagreb"
+  },
+  "HU": {
+    "name": "Hungria",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Budapeste"
+  },
+  "IE": {
+    "name": "Irlanda",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Dublin"
+  },
+  "IM": {
+    "name": "Ilha de Man",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ]
+  },
+  "IS": {
+    "name": "Islândia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Reiquiavique"
+  },
+  "IT": {
+    "name": "Itália",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Roma"
+  },
+  "JE": {
+    "name": "Jersey",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ]
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Vaduz"
+  },
+  "LT": {
+    "name": "Lituânia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Vilnius"
+  },
+  "LU": {
+    "name": "Luxemburgo",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Luxemburgo"
+  },
+  "LV": {
+    "name": "Letônia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Riga"
+  },
+  "MC": {
+    "name": "Mônaco",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Mônaco"
+  },
+  "MD": {
+    "name": "Moldávia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ]
+  },
+  "ME": {
+    "name": "Montenegro",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Podgorica"
+  },
+  "MK": {
+    "name": "Macedônia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Skopje"
+  },
+  "MT": {
+    "name": "Malta",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  },
+  "NL": {
+    "name": "Holanda",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Ocidental"
+    ],
+    "capital": "Amsterdã"
+  },
+  "NO": {
+    "name": "Noruega",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Oslo"
+  },
+  "PL": {
+    "name": "Polônia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Varsóvia"
+  },
+  "PT": {
+    "name": "Portugal",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Lisboa"
+  },
+  "RO": {
+    "name": "Romênia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Bucareste"
+  },
+  "RS": {
+    "name": "Sérvia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Belgrado"
+  },
+  "RU": {
+    "name": "Rússia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Moscou"
+  },
+  "SE": {
+    "name": "Suécia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Estocolmo"
+  },
+  "SI": {
+    "name": "Eslovênia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ],
+    "capital": "Liubliana"
+  },
+  "SJ": {
+    "name": "Svalbard e Jan Mayen",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Setentrional"
+    ],
+    "capital": "Longyearbyen"
+  },
+  "SK": {
+    "name": "Eslováquia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ],
+    "capital": "Bratislava"
+  },
+  "SM": {
+    "name": "San Marino",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  },
+  "UA": {
+    "name": "Ucrânia",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Oriental"
+    ]
+  },
+  "VA": {
+    "name": "Cidade do Vaticano",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  },
+  "XK": {
+    "name": "Kosovo",
+    "continent": "Europa",
+    "locatedIn": [
+      "Europa",
+      "Europa Meridional"
+    ]
+  }
+}

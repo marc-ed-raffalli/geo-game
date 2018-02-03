@@ -1,0 +1,539 @@
+{
+  "AO": {
+    "name": "Angola",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Luanda"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Ouagadougou"
+  },
+  "BI": {
+    "name": "Burundi",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Bujumbura"
+  },
+  "BJ": {
+    "name": "Benin",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Porto-Novo"
+  },
+  "BW": {
+    "name": "Botswana",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Southern Africa"
+    ],
+    "capital": "Gaborone"
+  },
+  "CD": {
+    "name": "Congo - Kinshasa",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Kinshasa"
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Bangui"
+  },
+  "CG": {
+    "name": "Congo - Brazzaville",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Brazzaville"
+  },
+  "CI": {
+    "name": "Côte d’Ivoire",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Yamoussoukro"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Yaoundé"
+  },
+  "CV": {
+    "name": "Cape Verde",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Praia"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Djibouti"
+  },
+  "DZ": {
+    "name": "Algeria",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Algiers"
+  },
+  "EA": {
+    "name": "Ceuta & Melilla",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ]
+  },
+  "EG": {
+    "name": "Egypt",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Cairo"
+  },
+  "EH": {
+    "name": "Western Sahara",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "El Aaiún"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Asmara"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Addis Ababa"
+  },
+  "GA": {
+    "name": "Gabon",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Libreville"
+  },
+  "GH": {
+    "name": "Ghana",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Accra"
+  },
+  "GM": {
+    "name": "Gambia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Banjul"
+  },
+  "GN": {
+    "name": "Guinea",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Conakry"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "Malabo"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Bissau"
+  },
+  "IC": {
+    "name": "Canary Islands",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ]
+  },
+  "KE": {
+    "name": "Kenya",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Nairobi"
+  },
+  "KM": {
+    "name": "Comoros",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Moroni"
+  },
+  "LR": {
+    "name": "Liberia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Monrovia"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Southern Africa"
+    ],
+    "capital": "Maseru"
+  },
+  "LY": {
+    "name": "Libya",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Tripoli"
+  },
+  "MA": {
+    "name": "Morocco",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Rabat"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Antananarivo"
+  },
+  "ML": {
+    "name": "Mali",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Bamako"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Nouakchott"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Port Louis"
+  },
+  "MW": {
+    "name": "Malawi",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Lilongwe"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Maputo"
+  },
+  "NA": {
+    "name": "Namibia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Southern Africa"
+    ],
+    "capital": "Windhoek"
+  },
+  "NE": {
+    "name": "Niger",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Niamey"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Abuja"
+  },
+  "RE": {
+    "name": "Réunion",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Saint-Denis"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Kigali"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Victoria"
+  },
+  "SD": {
+    "name": "Sudan",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Khartoum"
+  },
+  "SH": {
+    "name": "St. Helena",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ]
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Freetown"
+  },
+  "SN": {
+    "name": "Senegal",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Dakar"
+  },
+  "SO": {
+    "name": "Somalia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Mogadishu"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Juba"
+  },
+  "ST": {
+    "name": "São Tomé & Príncipe",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "São Tomé"
+  },
+  "SZ": {
+    "name": "Swaziland",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Southern Africa"
+    ],
+    "capital": "Lobamba"
+  },
+  "TD": {
+    "name": "Chad",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Middle Africa"
+    ],
+    "capital": "N'Djamena"
+  },
+  "TG": {
+    "name": "Togo",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Western Africa"
+    ],
+    "capital": "Lomé"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Northern Africa"
+    ],
+    "capital": "Tunis"
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Dodoma"
+  },
+  "UG": {
+    "name": "Uganda",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Kampala"
+  },
+  "YT": {
+    "name": "Mayotte",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Mamoudzou"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Southern Africa"
+    ],
+    "capital": "Pretoria"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Lusaka"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "continent": "Africa",
+    "locatedIn": [
+      "Africa",
+      "Eastern Africa"
+    ],
+    "capital": "Harare"
+  }
+}

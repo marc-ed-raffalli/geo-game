@@ -1,0 +1,209 @@
+{
+  "AS": {
+    "name": "Samó Mheiriceá",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ],
+    "capital": "Pago Pago"
+  },
+  "AU": {
+    "name": "an Astráil",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Astraláise"
+    ]
+  },
+  "CK": {
+    "name": "Oileáin Cook",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "FJ": {
+    "name": "Fidsí",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Mheilinéis"
+    ]
+  },
+  "FM": {
+    "name": "an Mhicrinéis",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ]
+  },
+  "GU": {
+    "name": "Guam",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ]
+  },
+  "KI": {
+    "name": "Cireabaití",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ]
+  },
+  "MH": {
+    "name": "Oileáin Marshall",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ],
+    "capital": "Majuro"
+  },
+  "MP": {
+    "name": "na hOileáin Mháirianacha Thuaidh",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ],
+    "capital": "Saipan"
+  },
+  "NC": {
+    "name": "an Nua-Chaladóin",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Mheilinéis"
+    ]
+  },
+  "NF": {
+    "name": "Oileán Norfolk",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Astraláise"
+    ]
+  },
+  "NR": {
+    "name": "Nárú",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ]
+  },
+  "NU": {
+    "name": "Niue",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "NZ": {
+    "name": "an Nua-Shéalainn",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Astraláise"
+    ]
+  },
+  "PF": {
+    "name": "Polainéis na Fraince",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "PG": {
+    "name": "Nua-Ghuine Phapua",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Mheilinéis"
+    ],
+    "capital": "Port Moresby"
+  },
+  "PN": {
+    "name": "Oileáin Pitcairn",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "PW": {
+    "name": "Oileáin Palau",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Réigiún Micrinéiseach"
+    ]
+  },
+  "SB": {
+    "name": "Oileáin Sholomón",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Mheilinéis"
+    ]
+  },
+  "TK": {
+    "name": "Tócalá",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ],
+    "capital": "Fakaofo"
+  },
+  "TO": {
+    "name": "Tonga",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ],
+    "capital": "Funafuti"
+  },
+  "VU": {
+    "name": "Vanuatú",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Mheilinéis"
+    ]
+  },
+  "WF": {
+    "name": "Vailís agus Futúna",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ]
+  },
+  "WS": {
+    "name": "Samó",
+    "continent": "an Aigéine",
+    "locatedIn": [
+      "an Aigéine",
+      "an Pholainéis"
+    ],
+    "capital": "Apia"
+  }
+}
