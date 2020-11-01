@@ -1,2 +1,0 @@
-webpackJsonp([1],{353:function(a,e){a.exports={continents:{asia:"\u0410\u0437\u0438\u044f",europe:"\u0415\u0432\u0440\u043e\u043f\u0430",africa:"\u0410\u0444\u0440\u0438\u043a\u0430","north-america":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0410\u043c\u0435\u0440\u0438\u043a\u0430","south-america":"\u042e\u0436\u043d\u0430\u044f \u0410\u043c\u0435\u0440\u0438\u043a\u0430",oceania:"\u041e\u043a\u0435\u0430\u043d\u0438\u044f"}}}});
-//# sourceMappingURL=1.980165dc.chunk.js.map

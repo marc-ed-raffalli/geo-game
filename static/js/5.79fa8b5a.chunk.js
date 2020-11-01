@@ -1,0 +1,2 @@
+webpackJsonp([5],{352:function(a,i){a.exports={continents:{asia:"Azi\xeb",europe:"Europa",africa:"Afrika","north-america":"Noord-Amerika","south-america":"Zuid-Amerika",oceania:"Oceani\xeb"}}}});
+//# sourceMappingURL=5.79fa8b5a.chunk.js.map
