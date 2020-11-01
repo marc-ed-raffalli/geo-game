@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Map, TileLayer, GeoJSON, Marker} from 'react-leaflet';
+import {GeoJSON, Map, Marker, TileLayer} from 'react-leaflet';
 
 import {divIcon} from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -114,14 +114,28 @@ export default class InteractiveMap extends Component {
     return props.markers
       .map(marker => (
         <Marker position={marker.properties.latlng}
-                icon={divIcon({
-                  iconAnchor: [15, 30],
-                  className: 'gg-markerIcon gg-markerIcon_red',
-                  iconSize: [30, 30]
-                })}
-                key={marker.properties.name}
+                icon={this.buildMarkerDiv(marker)}
+                key={`${marker.id}-${marker.type}`}
                 onclick={() => props.onFeatureClick(marker)}/>
       ));
+  }
+
+  buildMarkerDiv(marker) {
+    if (marker.type === 'country-location') {
+      return divIcon({
+        className: 'gg-markerSpot bg-primary',
+      });
+    }
+
+    if (marker.type === 'error-pin') {
+      return divIcon({
+        iconAnchor: [15, 30],
+        className: 'gg-markerIcon gg-markerIcon_red',
+        iconSize: [30, 30]
+      });
+    }
+
+    return null;
   }
 
   defineFeature(feature, layer) {

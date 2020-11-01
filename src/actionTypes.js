@@ -32,8 +32,10 @@ export const Map = {
   FETCH_DATA_FULFILLED: 'map:fetch-data_fulfilled',
   FETCH_DATA_REJECTED: 'map:fetch-data_rejected',
   RESET: 'map:reset',
+  CLEAR_DATA: 'map:clear-data',
   HIGHLIGHT_FEATURES: 'map:highlightFeatures',
   SHOW_MARKERS: 'map:show-markers',
+  SHOW_MARKERS_ALL_COUNTRIES: 'map:show-markers-all-countries',
   SHOW_POPUP: 'map:show-popup',
   HIDE_POPUP: 'map:hide-popup'
 };

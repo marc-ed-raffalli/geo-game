@@ -156,7 +156,8 @@ const mapStateToProps = state => {
     translate: getTranslate(state.locale),
     currentLocale: getActiveLanguage(state.locale).code,
     status, questions, answers, mode,
-    countriesData, mapLoading: loading, error,
+    countriesData,
+    mapLoading: loading, error,
     duration, timeout
   };
 };

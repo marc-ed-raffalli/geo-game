@@ -15,6 +15,11 @@
   background-repeat: no-repeat;
 }
 
+.gg-markerSpot {
+  border-radius: 100%;
+  box-shadow: 3px 3px 3px 0 rgba(120, 120, 120, .75);
+}
+
 .gg-markerIcon_red {
   background-image: url('icons/marker-red.png');
 }

@@ -14,10 +14,9 @@ const defaultGameState = {
   //<editor-fold desc="Fetch">
   fetch = (state, action) => ({
     ...state,
+    ...defaultGameState,
     areaId: action.payload.id,
-    countriesData: undefined,
-    loading: true,
-    error: undefined
+    loading: true
   }),
   fetchFulfilled = (state, action) => ({
     ...state,
@@ -38,7 +37,16 @@ const defaultGameState = {
 
   showMarkers = (state, action) => ({
     ...state,
-    markers: action.payload.map(id => state.dataById[id])
+    markers: action.payload
+  }),
+  showMarkersAllCountries = (state) => ({
+    ...state,
+    markers: Object.entries(state.dataById)
+      .map(([id, data]) => ({
+        id,
+        type: 'country-location',
+        properties: data.properties
+      }))
   }),
   reset = state => ({
     ...state,
@@ -46,6 +54,7 @@ const defaultGameState = {
     displayedData: state.countriesData,
     popup: undefined
   }),
+  clearData = () => defaultGameState,
   showPopup = (state, action) => ({
     ...state,
     popup: state.dataById[action.payload]
@@ -74,8 +83,10 @@ export default mapActionToReducer({
   [Map.FETCH_DATA_FULFILLED]: fetchFulfilled,
   [Map.FETCH_DATA_REJECTED]: fetchRejected,
   [Map.SHOW_MARKERS]: showMarkers,
+  [Map.SHOW_MARKERS_ALL_COUNTRIES]: showMarkersAllCountries,
   [Map.SHOW_POPUP]: showPopup,
   [Map.HIDE_POPUP]: hidePopup,
   [Map.HIGHLIGHT_FEATURES]: highlightFeatures,
-  [Map.RESET]: reset
+  [Map.RESET]: reset,
+  [Map.CLEAR_DATA]: clearData
 }, defaultGameState);

@@ -54,11 +54,10 @@ export const setGame = (data, mode, questionCount) => dispatch => {
   });
 };
 
-export const startGame = timeout => dispatch => {
-  dispatch({
-    type: Game.START
-  });
-
+export const startGame = timeout => (dispatch) => {
+  dispatch({type: Game.START});
+  dispatch(mapActions.reset());
+  dispatch(mapActions.showMarkersAllCountries());
   dispatch(timerActions.start(timeout, () => answerCurrentQuestion(undefined)));
 };
 
@@ -66,17 +65,17 @@ export const restartGame = () => (dispatch, getState) => {
   const {map, game, timer} = getState();
   dispatch(setGame(map.countriesData, game.mode, game.questions.length));
   dispatch(startGame(timer.duration));
-  dispatch(mapActions.reset());
 };
 
 export const stopGame = () => dispatch => {
   dispatch({type: Game.STOP});
-  dispatch(mapActions.reset());
+  dispatch(mapActions.clearData());
   dispatch(timerActions.stop());
 };
 
 export const showResults = () => (dispatch, getState) => {
-  const gameState = getState().game,
+  const state = getState(),
+    gameState = state.game,
     colorsByName = gameState.questions.reduce((res, question, index) => {
       const answer = gameState.answers[index];
 
@@ -95,9 +94,14 @@ export const showResults = () => (dispatch, getState) => {
 
   const wrongAnswers = gameState.questions
     .filter((question, index) => gameState.answers[index] !== question.display)
+    .map(d => ({
+      id: d.id,
+      type: 'error-pin',
+      properties: state.map.dataById[d.id].properties
+    }))
   ;
 
-  dispatch(mapActions.showMarkers(wrongAnswers.map(d => d.id)));
+  dispatch(mapActions.showMarkers(wrongAnswers));
 };
 
 export const answerCurrentQuestion = answer => (dispatch, getState) => {

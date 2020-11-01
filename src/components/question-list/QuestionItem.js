@@ -3,7 +3,7 @@ import React from 'react';
 import Flag from '../flag/Flag';
 
 export default (props) => {
-  const itemClasses = ['list-group-item', 'gg-questionItem'];
+  const itemClasses = ['list-group-item'];
 
   if (props.current) {
     itemClasses.push('active');
