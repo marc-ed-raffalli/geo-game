@@ -1,10 +1,45 @@
 {
+  "header": {
+    "title": "Xogo de Xeografía Mundial",
+    "sub-title": "Aprende ou redescobre máis de 200 países de todo o mundo!",
+    "description": "Atopa os países a partir do seu nome, capital ou bandeira. Estuda ou repasa a túa xeografía de forma simple."
+  },
+  "modes": {
+    "country-name": "Nome do País",
+    "capital": "Capital",
+    "flag": "Bandeira"
+  },
   "continents": {
+    "africa": "África",
     "asia": "Asia",
     "europe": "Europa",
-    "africa": "África",
     "north-america": "Norteamérica",
     "south-america": "Suramérica",
     "oceania": "Oceanía"
+  },
+  "footer": {
+    "credits": "Créditos",
+    "about": "Acerca de",
+    "issue": "Informar dun problema"
+  },
+  "actions": {
+    "play": "Xogar",
+    "restart": "Reiniciar",
+    "close": "Pechar"
+  },
+  "gettingStarted": {
+    "title": "Introdución",
+    "intro": "Atopa o país a partir do nome, capital ou bandeira amosados ao comezo da páxina.",
+    "info": "Durante o xogo, podes ver a seguinte información ao comezo da páxina:",
+    "list": {
+      "length": "4",
+      "items": {
+        "0": "á esquerda:O número da pregunta actual e o número total de preguntas",
+        "1": "á esquerda:O tempo restante:ion-android-stopwatch",
+        "2": "no medio:O nome do país, capital ou bandeira do país a atopar",
+        "3": "á dereita:Pechar, para saír do xogo actual"
+      }
+    },
+    "doNotShowAgain": "Non amosar de novo"
   }
 }

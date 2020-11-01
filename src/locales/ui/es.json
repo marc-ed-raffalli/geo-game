@@ -1,10 +1,45 @@
 {
+  "header": {
+    "title": "Juego de Geografía Mundial",
+    "sub-title": "Aprende o redescubre más de 200 países de todo el mundo!",
+    "description": "Encuentra los países a partir de su nombre, capital o bandera. Estudia o repasa tu geografía de forma simple."
+  },
+  "modes": {
+    "country-name": "Nombre del País",
+    "capital": "Capital",
+    "flag": "Bandera"
+  },
   "continents": {
+    "africa": "África",
     "asia": "Asia",
     "europe": "Europa",
-    "africa": "África",
     "north-america": "América del Norte",
     "south-america": "Sudamérica",
     "oceania": "Oceanía"
+  },
+  "footer": {
+    "credits": "Créditos",
+    "about": "Acerca de",
+    "issue": "Informar de un problema"
+  },
+  "actions": {
+    "play": "Jugar",
+    "restart": "Reiniciar",
+    "close": "Cerrar"
+  },
+  "gettingStarted": {
+    "title": "Introducción",
+    "intro": "Encuentra el país a partir del nombre, capital o bandera mostrados al comienzo de la página.",
+    "info": "Durante el juego, puedes ver la siguiente información al comienzo de la página:",
+    "list": {
+      "length": "4",
+      "items": {
+        "0": "a la izquierda:El número de la pregunta actual y el número total de preguntas",
+        "1": "a la izquierda:El tiempo restante:ion-android-stopwatch",
+        "2": "en el medio:El nombre del país, capital o bandera del país a encontrar",
+        "3": "a la derecha:Cerrar, para salir del juego actual"
+      }
+    },
+    "doNotShowAgain": "No mostrar de nuevo"
   }
 }
