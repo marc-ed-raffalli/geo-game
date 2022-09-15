@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://marc-ed-raffalli.github.io/geo-game/",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "leaflet": "^1.3.1",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
